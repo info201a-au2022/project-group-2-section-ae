@@ -1,0 +1,33 @@
+﻿place,Ethnicity,Blood type,percent
+,Caucasian,O-pos,27
+,Caucasian,O-neg,8
+,Caucasian,A-pos,33
+,Caucasian,A-neg,7
+,Caucasian,B-pos,9
+,Caucasian,B-neg,2
+,Caucasian,AB-pos,3
+,Caucasian,AB-neg,1
+,African American,O-pos,47
+,African American,O-neg,4
+,African American,A-pos,24
+,African American,A-neg,2
+,African American,B-pos,18
+,African American,B-neg,1
+,African American,AB-pos,4
+,African American,AB-neg,0.3
+,Asian American,O-pos,39
+,Asian American,O-neg,1
+,Asian American,A-pos,27
+,Asian American,A-neg,0.5
+,Asian American,B-pos,25
+,Asian American,B-neg,0.4
+,Asian American,AB-pos,7
+,Asian American,AB-neg,0.1
+,Latino American,O-pos,53
+,Latino American,O-neg,4
+,Latino American,A-pos,29
+,Latino American,A-neg,2
+,Latino American,B-pos,9
+,Latino American,B-neg,1
+,Latino American,AB-pos,2
+,Latino American,AB-neg,0.2
