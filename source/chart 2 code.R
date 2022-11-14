@@ -6,7 +6,7 @@ library(stringr)
 
 #2: percent of adults from 2001-2021 blood, line graph
 
-data <- read.csv("All Data.csv")
+data <- read.csv("../data/All Data.csv")
 
 chart2 <- ggplot(data, aes(x = Year, y = Yes)) +
   geom_line() +

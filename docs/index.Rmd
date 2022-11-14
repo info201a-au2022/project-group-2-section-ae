@@ -1,11 +1,14 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Blood Donation Demographics Before and After the COVID-19 Pandemic"
+author: "Sheamin Kim, LinhChi Le, Varsha Venkatesen"
+date: "11/13/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
+source("../source/chart 1 code.R")
+source("../source/chart 2 code.R")
+source("../source/chart 3 code.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -48,7 +51,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+chart1
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

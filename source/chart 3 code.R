@@ -6,8 +6,9 @@ library(stringr)
 
 #3: stacked bar chart ethnicity, blood type, percent, for 1 year
 
-data <- read.csv("ethnicity data.csv")
-data2 <- read.csv("2016data.csv")
+data <- read.csv("../data/ethnicity data.csv")
+data2 <- read.csv("../data/2016data.csv")
+
 
 data2sub <- data2 %>%
   filter(row_number() <= 20, row_number() >= 15)
@@ -18,3 +19,4 @@ chart3 <- ggplot(data, aes(fill = Blood.type, x = Ethnicity, y = percent)) +
   scale_fill_discrete(name = "Blood Type")
 
 chart3
+

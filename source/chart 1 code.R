@@ -4,13 +4,15 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 
-#1: age vs donation, matrix histogram (2017, 2019)
+#1: age vs donation, histogram (2016)
 
 #read.csv data in
-data <- read.csv("2016data.csv")
+data2016 <- read.csv("../data/2016data.csv")
+
+#data <- read.csv("2016data.csv")
 
 # subset data to what i need
-subset1 <- data %>%
+subset1 <- data2016 %>%
   filter(row_number() <= 11, row_number() >= 5)
   
 subset1$months <- str_replace(subset1$months, " [(].*[)]", "")
