@@ -1,4 +1,4 @@
-﻿place,id,DBN,state,city_or_county_of_death,year_fy,age,gender,cause_of_death,services_provided
+﻿place,id,DBN,state,city_or_county_of_death,year_,age,gender,cause_of_death,services_provided
 ,1,AK-F-001,AK,-,2011,0,F,-,N
 ,2,AK-F-002,AK,-,2011,3,M,-,N
 ,3,AK-F-003,AK,-,2011,1,M,-,Y
@@ -1251,7 +1251,7 @@
 ,1250,FL-F-030,FL,Clay,2011,2,M,Accidental Trauma,-
 ,1251,FL-F-031,FL,Orange,2011,3,-,Inflicted Trauma,-
 ,1252,FL-F-032,FL,Palm Beach,2011,10,M,Inflicted Trauma,-
-,1253,FL-F-033,FL,-,-,6,F,Inflicted Trauma,-
+,1253,FL-F-033,FL,-,,6,F,Inflicted Trauma,-
 ,1254,FL-F-034,FL,Alachua,2011,0,M,Sleep Related,-
 ,1255,FL-F-035,FL,Broward,2011,5,M,Accidental Trauma,Y
 ,1256,FL-F-036,FL,Miami-Dade,2011,0,M,Sleep Related,Y
@@ -1366,7 +1366,7 @@
 ,1365,FL-F-145,FL,Pinellas,2011,0,F,Sleep Related,Y
 ,1366,FL-F-146,FL,Palm Beach,2011,1,M,Drowning,Y
 ,1367,FL-F-147,FL,St. Johns,2011,7,M,Inflicted Trauma,-
-,1368,FL-F-148,FL,-,-,-,-,-,-
+,1368,FL-F-148,FL,-,,-,-,-,-
 ,1369,FL-F-149,FL,Lee,2011,0,F,Malnutrition,-
 ,1370,FL-F-150,FL,Sarasota,2011,1,M,Drowning,-
 ,1371,FL-F-151,FL,Marion,2011,1,F,Inflicted Trauma,-
@@ -1398,9 +1398,9 @@
 ,1397,FL-F-177,FL,Polk,2011,0,M,Inflicted Trauma,-
 ,1398,FL-F-178,FL,Sarasota,2011,0,F,Inflicted Trauma,Y
 ,1399,FL-F-179,FL,Brevard,2011,12,M,Inflicted Trauma,-
-,1400,FL-F-180,FL,Brevard,-,13,F,Inflicted Trauma,-
-,1401,FL-F-181,FL,Brevard,-,15,M,Inflicted Trauma,-
-,1402,FL-F-182,FL,Brevard,-,17,F,Inflicted Trauma,-
+,1400,FL-F-180,FL,Brevard,,13,F,Inflicted Trauma,-
+,1401,FL-F-181,FL,Brevard,,15,M,Inflicted Trauma,-
+,1402,FL-F-182,FL,Brevard,,17,F,Inflicted Trauma,-
 ,1403,FL-F-183,FL,Nassau,2011,0,M,Drowning,Y
 ,1404,FL-F-184,FL,Broward,2011,1,M,Drowning,-
 ,1405,FL-F-185,FL,Duval,2011,0,F,Inflicted Trauma,-
@@ -2463,12 +2463,12 @@
 ,2460,IL-F-143,IL,-,2012,0,-,Intrauterine hypoxia resulting from abruptio placentae with cocaine abuse a significant contributing factor,-
 ,2461,IL-F-144,IL,-,2012,0,M,Cardiopulmonary arrest due to multi-organ system failure due to congenital heart disease with fetal alcohol syndrome a significant contributing factor,-
 ,2462,IL-F-145,IL,-,2012,0,F,Bronchopneumonia,Y
-,2463,IL-F-146,IL,-,-,2,F,Multiple injuries from blunt force trauma to the head,-
-,2464,IL-F-147,IL,-,-,4,M,Blunt force trauma to the head,-
-,2465,IL-F-148,IL,-,-,1,M,Injuries caused by severe physical abuse,-
-,2466,IL-F-149,IL,-,-,2,M,Severe head trauma,Y
-,2467,IL-F-150,IL,-,-,0,F,Drowning,Y
-,2468,IL-F-151,IL,-,-,0,M,Sudden Unexpected Death in Infancy,-
+,2463,IL-F-146,IL,-,,2,F,Multiple injuries from blunt force trauma to the head,-
+,2464,IL-F-147,IL,-,,4,M,Blunt force trauma to the head,-
+,2465,IL-F-148,IL,-,,1,M,Injuries caused by severe physical abuse,-
+,2466,IL-F-149,IL,-,,2,M,Severe head trauma,Y
+,2467,IL-F-150,IL,-,,0,F,Drowning,Y
+,2468,IL-F-151,IL,-,,0,M,Sudden Unexpected Death in Infancy,-
 ,2469,IL-F-152,IL,-,2012,2,M,Extensive non-accidental traumatic head injuries with complications,Y
 ,2470,IL-F-153,IL,-,2012,1,F,Blunt head trauma due to child abuse,Y
 ,2471,IL-F-154,IL,-,2012,0,F,Suffocation,-
@@ -2530,16 +2530,16 @@
 ,2527,IL-F-210,IL,-,2013,0,M,Fetal demise due to premature delivery caused by acute chorioamnionitis,-
 ,2528,IL-F-211,IL,-,2013,0,M,Prematurity,-
 ,2529,IL-F-212,IL,-,2013,0,F,Congenital anomalies,-
-,2530,IL-F-213,IL,-,-,4,F,Subdural hematoma and cerebral injuries as a result of blunt force trauma,-
+,2530,IL-F-213,IL,-,,4,F,Subdural hematoma and cerebral injuries as a result of blunt force trauma,-
 ,2531,IL-F-214,IL,-,2011,3,F,Physical abuse,Y
-,2532,IL-F-215,IL,-,-,0,M,Extensive injuries consistent with shaken baby syndrome,Y
-,2533,IL-F-216,IL,-,-,2,M,Physical abuse,Y
-,2534,IL-F-217,IL,-,-,1,F,Undetermined,-
-,2535,IL-F-218,IL,-,-,2,M,Poisoning by accidental ingestion of methadone,-
-,2536,IL-F-219,IL,-,-,0,M,Undetermined,-
-,2537,IL-F-220,IL,-,-,13,F,Complications of hyperglycemia related to juvenile diabetes,-
-,2538,IL-F-221,IL,-,-,2,F,Drowning,-
-,2539,IL-F-222,IL,-,-,0,F,Undetermined causes while sleeping in a bed with maternal grandparents,-
+,2532,IL-F-215,IL,-,,0,M,Extensive injuries consistent with shaken baby syndrome,Y
+,2533,IL-F-216,IL,-,,2,M,Physical abuse,Y
+,2534,IL-F-217,IL,-,,1,F,Undetermined,-
+,2535,IL-F-218,IL,-,,2,M,Poisoning by accidental ingestion of methadone,-
+,2536,IL-F-219,IL,-,,0,M,Undetermined,-
+,2537,IL-F-220,IL,-,,13,F,Complications of hyperglycemia related to juvenile diabetes,-
+,2538,IL-F-221,IL,-,,2,F,Drowning,-
+,2539,IL-F-222,IL,-,,0,F,Undetermined causes while sleeping in a bed with maternal grandparents,-
 ,2540,IL-F-223,IL,-,2013,8,F,Strangulation and multiple blunt force injuries,-
 ,2541,IL-F-224,IL,-,2013,0,M,Suffocation,Y
 ,2542,IL-F-225,IL,-,2013,5,M,Cardiac rhythm disturbances precipitated by blunt force injury to the chest,Y
@@ -2602,11 +2602,11 @@
 ,2599,IL-F-282,IL,-,2014,0,M,Complications of premature birth,-
 ,2600,IL-F-283,IL,-,2013,8,F,Strangulation and blunt force trauma as a result of severe physical abuse,Y
 ,2601,IL-F-284,IL,-,2012,3,F,Killed in fire,Y
-,2602,IL-F-285,IL,-,-,0,-,Drowning,Y
-,2603,IL-F-286,IL,-,-,0,F,Asphyxiation after being smothered,Y
-,2604,IL-F-287,IL,-,-,0,F,"Undetermined, co-sleeping, congenital heart disease identified as a contributing factor",Y
-,2605,IL-F-288,IL,-,-,0,F,Massive brain swelling due to blunt head trauma,Y
-,2606,IL-F-289,IL,-,-,1,M,Seizures related to low blood-sodium levels,Y
+,2602,IL-F-285,IL,-,,0,-,Drowning,Y
+,2603,IL-F-286,IL,-,,0,F,Asphyxiation after being smothered,Y
+,2604,IL-F-287,IL,-,,0,F,"Undetermined, co-sleeping, congenital heart disease identified as a contributing factor",Y
+,2605,IL-F-288,IL,-,,0,F,Massive brain swelling due to blunt head trauma,Y
+,2606,IL-F-289,IL,-,,1,M,Seizures related to low blood-sodium levels,Y
 ,2607,IL-F-290,IL,-,2014,6,M,Malnutrition due to starvation,-
 ,2608,IL-F-291,IL,-,2014,3,M,Multiple blunt force trauma,-
 ,2609,IL-F-292,IL,-,2014,3,M,Asphyxia due to smoke inhalation,Y
@@ -2664,13 +2664,13 @@
 ,2661,IL-F-344,IL,-,2015,0,F,Tracheobronchopneumonitis,Y
 ,2662,IL-F-345,IL,-,2015,0,M,Sudden unexpected death in infancy,Y
 ,2663,IL-F-346,IL,-,2015,0,F,Laryngotracheobronchitis of the lungs and airways with staphylococcus aureus bacteremia a significant contributing factor,-
-,2664,IL-F-347,IL,-,-,0,M,Massive brain swelling due to a fractured skull from multiple blunt force injuries,Y
-,2665,IL-F-348,IL,-,-,0,M,Extreme physical abuse,Y
-,2666,IL-F-349,IL,-,-,2,F,Multiple blunt force trauma injuries,-
-,2667,IL-F-350,IL,-,-,3,M,Undetermined,-
-,2668,IL-F-351,IL,-,-,5,M,Blunt force trauma from being struck in the chest,Y
-,2669,IL-F-352,IL,-,-,3,F,Severe physical abuse,-
-,2670,IL-F-353,IL,-,-,2,M,Undetermined,-
+,2664,IL-F-347,IL,-,,0,M,Massive brain swelling due to a fractured skull from multiple blunt force injuries,Y
+,2665,IL-F-348,IL,-,,0,M,Extreme physical abuse,Y
+,2666,IL-F-349,IL,-,,2,F,Multiple blunt force trauma injuries,-
+,2667,IL-F-350,IL,-,,3,M,Undetermined,-
+,2668,IL-F-351,IL,-,,5,M,Blunt force trauma from being struck in the chest,Y
+,2669,IL-F-352,IL,-,,3,F,Severe physical abuse,-
+,2670,IL-F-353,IL,-,,2,M,Undetermined,-
 ,2671,IL-F-354,IL,-,2015,0,M,Multiple injuries due to child abuse,Y
 ,2672,IL-F-355,IL,-,2015,2,M,Multiple blunt force injuries,Y
 ,2673,IL-F-356,IL,-,2015,2,F,Multiple injuries,Y
@@ -2706,12 +2706,12 @@
 ,2703,IL-F-419,IL,-,2015,9,M,Bronchial asthma,Y
 ,2704,IL-F-420,IL,-,2015,3,F,Acute bacterial laryngotracheitis with IgA deficiency contributing,Y
 ,2705,IL-F-421,IL,-,2015,11,F,-,Y
-,2706,IL-F-425,IL,-,-,3,M,Extensive physical abuse,-
-,2707,IL-F-426,IL,-,-,0,-,Undetermined,-
-,2708,IL-F-427,IL,-,-,0,F,Extreme prematurity,-
-,2709,IL-F-428,IL,-,-,0,F,"Swelling to the brain as a result of undetermined causes, likely shaken baby syndrome",-
-,2710,IL-F-429,IL,-,-,5,M,Deliberately inflicted blunt trauma to the head,Y
-,2711,IL-F-430,IL,-,-,0,F,Stroke suffered during surgery to repair congenital heart defects,Y
+,2706,IL-F-425,IL,-,,3,M,Extensive physical abuse,-
+,2707,IL-F-426,IL,-,,0,-,Undetermined,-
+,2708,IL-F-427,IL,-,,0,F,Extreme prematurity,-
+,2709,IL-F-428,IL,-,,0,F,"Swelling to the brain as a result of undetermined causes, likely shaken baby syndrome",-
+,2710,IL-F-429,IL,-,,5,M,Deliberately inflicted blunt trauma to the head,Y
+,2711,IL-F-430,IL,-,,0,F,Stroke suffered during surgery to repair congenital heart defects,Y
 ,2712,IL-F-431,IL,-,2011,0,M,"Prematurity due to spontaneous rupture of membranes, due to maternal cocaine use",-
 ,2713,IL-F-433,IL,-,2011,6,-,Carbon monoxide intoxication due to house fire,-
 ,2714,IL-F-434,IL,-,2011,4,-,Smoke inhalation due to a house fire,Y
@@ -2725,270 +2725,270 @@
 ,2722,IL-F-442,IL,-,2013,9,M,Drowning,Y
 ,2723,IL-F-443,IL,-,2013,2,-,Spinal injuries due to blunt force trauma; Massive head injuries due to blunt force trauma,Y
 ,2724,IL-F-444,IL,-,2014,0,-,Prematurity,Y
-,2725,IN-F-001,IN,-,FY 2011,0,-,Blunt force trauma to the head,-
-,2726,IN-F-002,IN,-,FY 2011,1,-,Blunt force trauma to the head. Also fractured help.,-
-,2727,IN-F-003,IN,Austin,FY 2011,14,F,Gunshot Wound,-
-,2728,IN-F-004,IN,Austin,FY 2011,9,F,Gunshot Wound,-
-,2729,IN-F-005,IN,Austin,FY 2011,4,M,Gunshot Wound,-
-,2730,IN-F-006,IN,-,FY 2011,4,-,Multiple blunt force trauma.,-
-,2731,IN-F-007,IN,Greensburg,FY 2011,12,-,Multiple blunt force trauma.,-
-,2732,IN-F-008,IN,Lawrence,FY 2011,0,F,Smoke inhilation,-
-,2733,IN-F-009,IN,-,FY 2011,2,-,Multiple blunt force trauma.,-
-,2734,IN-F-010,IN,Tipton,FY 2011,4,M,Fractured spine and lacerated aorta,-
-,2735,IN-F-011,IN,-,FY 2011,0,-,"Multiple blunt force trauma, head injuries. Old and new rib injuries.",-
-,2736,IN-F-012,IN,Gary,FY 2011,13,M,"Multiple blunt force trauma to head. Beaten for years, starved on and off.",-
-,2737,IN-F-013,IN,-,FY 2011,2,-,Multiple blunt impact trauma to abdomen,-
-,2738,IN-F-014,IN,-,FY 2011,0,-,"Abusive head trauma, multiple other injuries",-
-,2739,IN-F-015,IN,-,FY 2011,0,-,Abusive blunt force head trauma,-
-,2740,IN-F-016,IN,-,FY 2011,0,M,Blunt force trauma to the head,-
-,2741,IN-F-017,IN,Fort Wayne,FY 2011,3,M,Neck compression,-
-,2742,IN-F-018,IN,-,FY 2011,0,-,"Skull fracture, brain bleeds, retinal hemoraging",-
-,2743,IN-F-019,IN,-,FY 2011,0,-,A moving body against a stationery object.,-
-,2744,IN-F-020,IN,-,FY 2011,0,-,Multiple injuries,-
-,2745,IN-F-021,IN,-,FY 2011,0,-,Multiple injuiries,-
-,2746,IN-F-022,IN,-,FY 2011,0,-,"Multiple injuries, fractures, healed scarring on the face.",-
-,2747,IN-F-023,IN,-,FY 2011,0,-,"Shaken baby, died of brain bleeding seven years later.",-
-,2748,IN-F-024,IN,-,FY 2011,1,-,Abusive head trauma,-
-,2749,IN-F-025,IN,-,FY 2011,0,-,Multiple fractures leading to respiratory complications that led to the child's death five years later.,-
-,2750,IN-F-026,IN,-,FY 2011,0,-,Multiple injuries,-
-,2751,IN-F-027,IN,-,FY 2011,3,M,Skull fractures and brain bleed,-
-,2752,IN-F-028,IN,-,FY 2011,0,-,"Child born prematurely, mother high on drugs at the time. Admitted to doing drugs in the course of her pregnancy. Mother later found dead during investigation.",-
-,2753,IN-F-029,IN,-,FY 2011,4,-,Asphyxia due to heat exposure,-
-,2754,IN-F-030,IN,-,FY 2011,5,-,Asphyxia due to heat exposure,-
-,2755,IN-F-031,IN,-,FY 2011,3,-,Injested pain killers not kept safetly,-
-,2756,IN-F-032,IN,New Carlisle,FY 2011,2,M,Found unresponsive in trunk of car.,-
-,2757,IN-F-033,IN,New Carlisle,FY 2011,4,M,Found unresponsive in trunk of car.,-
-,2758,IN-F-034,IN,Indianapolis,FY 2011,0,F,intracerebral hemorrhages,-
-,2759,IN-F-035,IN,Elkhart,FY 2011,0,F,Injuries after car incident,-
-,2760,IN-F-036,IN,Martinsville,FY 2011,6,M,Gunshot Wound,-
-,2761,IN-F-037,IN,-,FY 2011,0,-,Asphyxia due to overlay,-
-,2762,IN-F-038,IN,-,FY 2011,0,-,Asphyxia due to overlay,-
-,2763,IN-F-039,IN,Indianapolis,FY 2011,3,F,Gunshot wound to the head,-
-,2764,IN-F-040,IN,Crawfordsville,FY 2011,10,F,Gunshot wound to pelvis,-
-,2765,IN-F-041,IN,-,FY 2012,0,-,Blunt force trauma to the head,-
-,2766,IN-F-042,IN,Trafalgar,FY 2012,3,M,Drowned,-
-,2767,IN-F-043,IN,-,FY 2012,5,-,Blunt force trauma,-
-,2768,IN-F-044,IN,-,FY 2012,10,M,Blunt force trauma to the head and thorax,-
-,2769,IN-F-045,IN,-,FY 2012,0,-,Blunt force trauma to the head,-
-,2770,IN-F-046,IN,Shelbyville,FY 2012,1,M,Blunt force trauma to head,-
-,2771,IN-F-047,IN,-,FY 2012,1,M,Blunt force trauma to the head,-
-,2772,IN-F-048,IN,-,FY 2012,0,-,Blunt force trauma to the head,-
-,2773,IN-F-049,IN,Rising Sun,FY 2012,1,M,"Closed head injury with multiple fractures, subdural hemorrhages and retinal hemorrhages.",-
-,2774,IN-F-050,IN,-,FY 2012,2,M,Blunt force trauma to the head,-
-,2775,IN-F-051,IN,Fort Wayne,FY 2012,9,F,Multiple blunt force trauma,-
-,2776,IN-F-052,IN,Hammond,FY 2012,10,M,Gunshot to the back,-
-,2777,IN-F-053,IN,-,FY 2012,0,-,Abusive head trauma,-
-,2778,IN-F-054,IN,-,FY 2012,0,-,Multiple blunt force traumatic injuries,-
-,2779,IN-F-055,IN,-,FY 2012,0,-,Blunt force trauma to the head,-
-,2780,IN-F-056,IN,-,FY 2012,4,-,Drowned,-
-,2781,IN-F-057,IN,-,FY 2012,1,-,Drowned,-
-,2782,IN-F-058,IN,-,FY 2012,6,-,Drowned,-
-,2783,IN-F-059,IN,-,FY 2012,3,-,Drowned,-
-,2784,IN-F-060,IN,-,FY 2012,3,-,Intoxication of an opiate,-
-,2785,IN-F-061,IN,Terre Haute,FY 2012,0,F,Seizure,-
-,2786,IN-F-062,IN,Crown Point,FY 2012,2,F,Gunshot wound to the head,-
-,2787,IN-F-063,IN,-,FY 2012,0,M,Respiratory Arrest,-
-,2788,IN-F-064,IN,Richmond,FY 2012,0,M,Dehydration due to starvation,-
-,2789,IN-F-065,IN,-,FY 2012,0,-,Suffocation,-
-,2790,IN-F-066,IN,Jeffersonville,FY 2012,0,M,Drowning,-
-,2791,IN-F-067,IN,-,FY 2012,0,F,Undetermined,-
-,2792,IN-F-068,IN,-,FY 2012,0,-,Heat exposure,-
-,2793,IN-F-069,IN,-,FY 2012,0,-,Drowning,-
-,2794,IN-F-070,IN,Indianapolis,FY 2012,0,M,Drowning,-
-,2795,IN-F-071,IN,-,FY 2012,0,-,Mother's drug use,-
-,2796,IN-F-072,IN,-,FY 2012,0,-,Positional asphyxia,-
-,2797,IN-F-073,IN,-,FY 2012,3,-,Motor vehicle accident,-
-,2798,IN-F-074,IN,-,FY 2013,2,M,Opiate Toxicity,-
-,2799,IN-F-075,IN,-,FY 2013,0,M,Closed head and neck injuries,-
-,2800,IN-F-076,IN,South Bend,FY 2013,6,F,Stabbing,-
-,2801,IN-F-077,IN,-,FY 2013,1,F,Multiple blunt force injuries,-
-,2802,IN-F-078,IN,Muncie,FY 2013,5,F,Pulmonary embolus secondary to multiple inflicted injuries,-
-,2803,IN-F-079,IN,-,FY 2013,1,-,"Swelling and herniation of the brain, as well as laceration of liver with intraperitoneal hemorrhage from blunt force trauma to the abdomen",-
-,2804,IN-F-080,IN,-,FY 2013,0,-,Blunt force trauma to the head,-
-,2805,IN-F-081,IN,Reelsville,FY 2013,14,M,Gunshot wound to the head,-
-,2806,IN-F-082,IN,-,FY 2013,0,-,Subdural hematoma,-
-,2807,IN-F-083,IN,Indianapolis,FY 2013,3,F,Diffuse subdural hematoma and multiple blunt force injuries,-
-,2808,IN-F-084,IN,-,FY 2013,1,-,Abusive head trauma,-
-,2809,IN-F-085,IN,Indianapolis,FY 2013,2,M,Stabbing,-
-,2810,IN-F-086,IN,-,FY 2013,2,-,Blunt cranio-cerebral traumatic injuries,-
-,2811,IN-F-087,IN,-,FY 2013,1,-,"Complications of blunt cranial-cerebral trauma, skull fracture, subdural hematoma",-
-,2812,IN-F-088,IN,Bloomington,FY 2013,0,F,Overdose of benodiazepines,-
-,2813,IN-F-089,IN,-,FY 2013,0,-,Malnutrition,-
-,2814,IN-F-090,IN,-,FY 2013,0,-,Positional asphyxia,-
-,2815,IN-F-091,IN,-,FY 2013,14,-,Complications of seizure disorder,-
-,2816,IN-F-092,IN,-,FY 2013,4,-,Multiple blunt force injuries (motor vehicle crash),-
-,2817,IN-F-093,IN,Fishers,FY 2013,1,M,Complications from mechanical ashyxia,-
-,2818,IN-F-094,IN,-,FY 2013,0,-,Sudden Unexplained Death in Infancy,-
-,2819,IN-F-095,IN,Carmel,FY 2013,0,M,Sudden Unexplained Death in Infancy,-
-,2820,IN-F-096,IN,-,FY 2013,0,-,Hyperthermia and dehydration,-
-,2821,IN-F-097,IN,-,FY 2013,5,-,Drowning,-
-,2822,IN-F-098,IN,-,FY 2013,2,-,Drowning,-
-,2823,IN-F-099,IN,-,FY 2013,1,-,Drowning,-
-,2824,IN-F-100,IN,-,FY 2013,1,-,Drowning,-
-,2825,IN-F-101,IN,-,FY 2013,0,-,Positional asphyxia,-
-,2826,IN-F-102,IN,-,FY 2013,3,-,Drowning,-
-,2827,IN-F-103,IN,-,FY 2013,2,-,Drowning,-
-,2828,IN-F-104,IN,-,FY 2013,3,-,Drowning,-
-,2829,IN-F-105,IN,-,FY 2013,1,-,Drowning,-
-,2830,IN-F-106,IN,-,FY 2013,3,-,Drowning,-
-,2831,IN-F-107,IN,-,FY 2013,0,-,Blunt force injuries (motor vehicle accident),-
-,2832,IN-F-108,IN,-,FY 2013,0,-,"Not specified, but history of various cardiological issues",-
-,2833,IN-F-109,IN,Evansville,FY 2013,0,F,Respiratory arrest and acute lobar pneumonia,-
-,2834,IN-F-110,IN,-,FY 2013,4,-,Complications of hydrocephalus,-
-,2835,IN-F-111,IN,Warsaw,FY 2013,1,M,Asphyxia due to position and neck compression,-
-,2836,IN-F-112,IN,-,FY 2013,4,-,Drowning,-
-,2837,IN-F-113,IN,Indianapolis,FY 2013,7,M,Carbon monoxide poisoning (apartment fire),-
-,2838,IN-F-114,IN,New Albany,FY 2013,10,M,Drowning,-
-,2839,IN-F-115,IN,New Albany,FY 2013,0,F,Drowning,-
-,2840,IN-F-116,IN,Marion,FY 2013,2,F,"Burns to head, face, and chest",-
-,2841,IN-F-117,IN,-,FY 2013,2,-,Asphyxia due to drowning,-
-,2842,IN-F-118,IN,Muncie,FY 2013,16,M,Drug overdose (multiple drugs),-
-,2843,IN-F-119,IN,-,FY 2013,0,-,Positional asphyxia,-
-,2844,IN-F-120,IN,-,FY 2013,0,-,Anoxic brain injury due to a near drowning,-
-,2845,IN-F-121,IN,-,FY 2013,0,-,Blunt force traumatic injuries,-
-,2846,IN-F-122,IN,-,FY 2013,0,-,Congenital heart disease and tracheobronchomalacia,-
-,2847,IN-F-123,IN,-,FY 2013,0,-,SIDS,-
-,2848,IN-F-124,IN,Salem,FY 2014,0,M,Multiple blunt force injuries,-
-,2849,IN-F-125,IN,-,FY 2014,1,F,Inflicted trauma,-
-,2850,IN-F-126,IN,-,FY 2014,2,M,Sepsis due to pneumonia,-
-,2851,IN-F-127,IN,Indianapolis,FY 2014,2,F,"Multiple acute looped, patterned, blunt force traumatic injries",-
-,2852,IN-F-128,IN,-,FY 2014,2,M,Blunt force trauma to the abdomen,-
-,2853,IN-F-129,IN,Crown Point,FY 2014,0,M,Multiple injuries due to child abuse,-
-,2854,IN-F-130,IN,Evansville,FY 2014,0,F,Asphyxia due to soot inhalation,-
-,2855,IN-F-131,IN,-,FY 2014,0,F,Extensive head injuries due to blunt force trauma,-
-,2856,IN-F-132,IN,Greensburg,FY 2014,14,M,Gunshot wound to the head,-
-,2857,IN-F-133,IN,Lafayette,FY 2014,6,F,Respiratory arrest due to asphyxia due to inhalation of soot and CO poisoning,-
-,2858,IN-F-134,IN,-,FY 2014,1,F,Multiple blunt trauma injuries followed by drowning,-
-,2859,IN-F-135,IN,-,FY 2014,1,-,Blunt force traumatic injury to head,-
-,2860,IN-F-136,IN,Sullivan,FY 2014,1,F,Carbon monoxide intoxication,-
-,2861,IN-F-137,IN,Indianapolis,FY 2014,4,F,Head and neck injuries sustained in motor vehicle accident,-
-,2862,IN-F-138,IN,-,FY 2014,0,M,Positional and mechanical asphyxia,-
-,2863,IN-F-139,IN,Lafayette,FY 2014,3,M,Respiratory arrest due to inhalation of super heated air and carbon monoxide poisoning,-
-,2864,IN-F-140,IN,Lafayette,FY 2014,3,M,Respiratory arrest due to inhalation of super heated air and carbon monoxide poisoning,-
-,2865,IN-F-141,IN,Marion,FY 2014,1,M,Asphyxiation due to drowning,-
-,2866,IN-F-142,IN,-,FY 2014,0,M,Sudden Unexplained Infant Death,-
-,2867,IN-F-143,IN,-,FY 2014,0,-,Sudden Unexplained Death in Infancy,-
-,2868,IN-F-144,IN,-,FY 2014,0,-,Positional asphyxia,-
-,2869,IN-F-145,IN,Michigan City,FY 2014,5,M,Asphyxia due to hanging,-
-,2870,IN-F-146,IN,Indianapolis,FY 2014,0,M,Multiple blunt force trauma injuries due to motor vehicle accident,-
-,2871,IN-F-147,IN,-,FY 2014,3,-,Anoxic brain injury from drowning,-
-,2872,IN-F-148,IN,-,FY 2014,0,F,Perinatal asphyxia with morbid encephalopathy of a 25 week gestation female,-
-,2873,IN-F-149,IN,-,FY 2014,0,M,Methadone toxicity,-
-,2874,IN-F-150,IN,-,FY 2014,2,M,Drowning,-
-,2875,IN-F-151,IN,-,FY 2014,0,M,Pharmacologic intoxication,-
-,2876,IN-F-152,IN,-,FY 2014,0,M,Drowning,-
-,2877,IN-F-153,IN,Columbus,FY 2014,11,M,Multiple trauma to the head due to ATV accident,-
-,2878,IN-F-154,IN,Loogootee,FY 2014,0,-,Compression asphyxia,-
-,2879,IN-F-155,IN,-,FY 2014,0,F,Sudden Unexplained Infant Death,-
-,2880,IN-F-156,IN,-,FY 2014,1,F,Drowning,-
-,2881,IN-F-157,IN,-,FY 2014,0,M,Complications of bacterial pneumonia,-
-,2882,IN-F-158,IN,-,FY 2014,1,F,Pulomnary edema and congestion due to asphyxia event due to cervical ligature,-
-,2883,IN-F-159,IN,-,FY 2014,0,-,Sudden Unexplained Infant Death,-
-,2884,IN-F-160,IN,Shipshewana,FY 2014,7,M,"Blunt force trauma to the head, fatal cardiac arrythmia, and multi-system trauma",-
-,2885,IN-F-161,IN,-,FY 2014,2,-,Gunshot wound to the head,-
-,2886,IN-F-162,IN,-,FY 2014,2,-,Hyperthermia,-
-,2887,IN-F-163,IN,New Albany,FY 2014,2,F,Carbon monoxide intoxication from house fire,-
-,2888,IN-F-164,IN,New Albany,FY 2014,6,M,Carbon monoxide intoxication from house fire,-
-,2889,IN-F-165,IN,New Albany,FY 2014,4,F,Carbon monoxide intoxication from house fire,-
-,2890,IN-F-166,IN,Vincennes,FY 2014,7,M,Drowning,-
-,2891,IN-F-167,IN,Indianapolis,FY 2014,3,M,Drowning,-
-,2892,IN-F-168,IN,-,FY 2014,3,M,Drowning,-
-,2893,IN-F-169,IN,Merrillville,FY 2014,4,M,Gunshot wound to the head,-
-,2894,IN-F-170,IN,Granger,FY 2014,0,-,"Homicidal violence with possible exposure, blood loss, and asphyxiation",-
-,2895,IN-F-171,IN,Greensburg,FY 2014,13,M,Gunshot wound to torso/chest,-
-,2896,IN-F-172,IN,Warsaw,FY 2014,12,M,Carbon monoxide poisoning,-
-,2897,IN-F-173,IN,Aurora,FY 2014,2,F,Drowning,-
-,2898,IN-F-174,IN,Aurora,FY 2014,2,F,Drowning,-
-,2899,IN-F-175,IN,-,FY 2014,1,M,Ligature strangulation,-
-,2900,IN-F-176,IN,Harvey,FY 2014,1,M,Blunt force trauma (ATV accident),-
-,2901,IN-F-177,IN,-,FY 2014,0,-,Sudden Unexpected Death in Infancy (SUDI),-
-,2902,IN-F-178,IN,Hammond,FY 2014,3,F,Extensive burns and smoke inhalation (house fire),-
-,2903,IN-F-179,IN,Hammond,FY 2014,0,M,Extensive burns and smoke inhalation (house fire),-
-,2904,IN-F-180,IN,Hammond,FY 2014,4,F,Extensive burns and charred body (house fire),-
-,2905,IN-F-181,IN,Michigan City,FY 2014,3,M,Gunshot wound to the head,-
-,2906,IN-F-182,IN,Beech Grove,FY 2014,14,M,Complications of severe emaciation and dehydration due to Crohn's Disease,-
-,2907,IN-F-183,IN,-,FY 2014,0,F,Toxic effects of methadone,-
-,2908,IN-F-184,IN,-,FY 2014,0,M,E ncephalomalacia following asphyxia from aspiration of gastric contents,-
-,2909,IN-F-185,IN,-,FY 2014,2,M,Drowning,-
-,2910,IN-F-186,IN,Kokomo,FY 2014,13,M,"Multiple traumatic blunt force injuries to head, chest, and abdomen (moped accident)",-
-,2911,IN-F-187,IN,Marion,FY 2014,7,M,Drowning,-
-,2912,IN-F-188,IN,-,FY 2014,1,M,Drowning,-
-,2913,IN-F-189,IN,-,FY 2015,0,-,Herniation of the brain due to an acute Subdural Hematoma,-
-,2914,IN-F-190,IN,East Chicago,FY 2015,1,F,Acute Alcohol Intoxication and Extensive Burn Wounds,-
-,2915,IN-F-191,IN,-,FY 2015,17,-,Broken neck,-
-,2916,IN-F-192,IN,Indianapolis,FY 2015,4,M,Multiple blunt force trauma,-
-,2917,IN-F-193,IN,Clarkesville,FY 2015,3,F,Battered child syndrome,-
-,2918,IN-F-194,IN,-,FY 2015,3,-,Multiple blunt force injuries,-
-,2919,IN-F-195,IN,Ellettsville,FY 2015,15,M,Pharmacological Overdose of Oxycodone and Diazepam,-
-,2920,IN-F-196,IN,-,FY 2015,1,-,Non-accidental Blunt Force Head Injuries.,-
-,2921,IN-F-197,IN,-,FY 2015,1,-,Blunt Force Traumatic Injuries to the head,-
-,2922,IN-F-198,IN,South Bend,FY 2015,0,M,Homicidal Asphyxia,-
-,2923,IN-F-199,IN,-,FY 2015,1,-,"Ruptured Stomach with chemical peritonitis, fracture of the cervical spine, and extensive scalp hemorrhages",-
-,2924,IN-F-200,IN,-,FY 2015,0,-,"Craniocerebral Trauma, multiple skull fractures, multiple brain bleeds, and brain swelling",-
-,2925,IN-F-201,IN,Indianapolis,FY 2015,0,F,Multiple Blunt Force Traumatic Injuries,-
-,2926,IN-F-202,IN,-,FY 2015,1,-,Multiple Blunt Force Injuries,-
-,2927,IN-F-203,IN,-,FY 2015,0,F,Blunt force trauma to the head,-
-,2928,IN-F-204,IN,Indianapolis,FY 2015,1,F,Multiple Blunt Force Traumatic Injuries,-
-,2929,IN-F-205,IN,Greenwood,FY 2015,0,M,Blunt Force Injury to the Head,-
-,2930,IN-F-206,IN,New Paris,FY 2015,1,M,Blunt force injuries to the head,-
-,2931,IN-F-207,IN,CITY OF DEATH,FY 2015,0,-,Blunt force trauma to the head,-
-,2932,IN-F-208,IN,Jasper,FY 2015,1,M,"Multiple Injuries to the head, torso, and extremities, including blunt force injuries and partial-thickness burns",-
-,2933,IN-F-209,IN,Indianapolis,FY 2015,3,F,Multiple Blunt Force Traumatic Injuries due to Assault,-
-,2934,IN-F-210,IN,Indianapolis,FY 2015,1,M,Complications of Blunt Force Trauma to the Abdomen,-
-,2935,IN-F-211,IN,Underwood,FY 2015,4,M,Inflicted Closed Head Trauma,-
-,2936,IN-F-212,IN,CITY OF DEATH,FY 2015,0,-,Blunt Force Injuries of the Head,-
-,2937,IN-F-213,IN,Paoli,FY 2015,3,F,Gunshot wound,-
-,2938,IN-F-214,IN,Paoli,FY 2015,6,M,Gunshot wound,-
-,2939,IN-F-215,IN,Muncie,FY 2015,0,M,Blunt Force Trauma to the Head,-
-,2940,IN-F-216,IN,CITY OF DEATH,FY 2015,0,-,Multiple Blunt Force Traumatic Injuries,-
-,2941,IN-F-217,IN,Wane,FY 2015,3,M,Blunt Force Trauma,-
-,2942,IN-F-218,IN,Chalmers,FY 2015,0,M,Closed Head Blunt Force Traumatic Injury,-
-,2943,IN-F-219,IN,Greenfield,FY 2015,1,F,Multiple Blunt Force Traumatic Injuries due to Assault,-
-,2944,IN-F-220,IN,-,FY 2015,0,M,Positional Asphyxia,-
-,2945,IN-F-221,IN,-,FY 2015,0,M,Sudden Infant Death Syndrome,-
-,2946,IN-F-222,IN,-,FY 2015,0,M,Sudden Unexpected Infant Death,-
-,2947,IN-F-223,IN,-,FY 2015,3,F,Herniation of the brain due to Closed Head Injury,-
-,2948,IN-F-224,IN,-,FY 2015,1,F,Complications from Anoxic Brain Injury due to Drowning,-
-,2949,IN-F-225,IN,-,FY 2015,0,-,Positional Asphyxia with a contributing factor ofAcute Mixed Drug Intoxication,-
-,2950,IN-F-226,IN,-,FY 2015,0,-,Sudden Infant Death Syndrome with a contributing factor of co-sleeping with adults,-
-,2951,IN-F-227,IN,Kokomo,FY 2015,0,-,Gunshot Wound to the Head,-
-,2952,IN-F-228,IN,-,FY 2015,0,F,Sudden Unexplained Infant Death after co-sleeping with her mother,-
-,2953,IN-F-229,IN,Indianapolis,FY 2015,0,F,Unknown causes,-
-,2954,IN-F-230,IN,-,FY 2015,17,-,Complications from seizure disorder,-
-,2955,IN-F-231,IN,-,FY 2015,1,-,Multiple Blunt Force Injuries secondary to a being struck by a motor vehicle as a pedestrian,-
-,2956,IN-F-232,IN,-,FY 2015,2,-,Drowning,-
-,2957,IN-F-233,IN,-,FY 2015,0,-,Asphyxia due to Unsafe Sleeping Conditions,-
-,2958,IN-F-234,IN,Florence,FY 2015,6,-,Blunt Force Trauma to the Head as a result of an All-Terrain Vehicle (ATV) Accident,-
-,2959,IN-F-235,IN,Scottsburg,FY 2015,4,-,Blunt Force Trauma to the Head,-
-,2960,IN-F-236,IN,Greenwood,FY 2015,11,M,Asphyxiation,-
-,2961,IN-F-237,IN,-,FY 2015,5,-,Asphyxiation,-
-,2962,IN-F-238,IN,-,FY 2015,8,-,Multiple Blunt Force Traumatic Injuries,-
-,2963,IN-F-239,IN,-,FY 2015,0,-,Positional Asphyxia,-
-,2964,IN-F-240,IN,Bloomington,FY 2015,4,M,Drowning,-
-,2965,IN-F-241,IN,-,FY 2015,0,M,Asphyxiation due to co-sleeping with parents,-
-,2966,IN-F-242,IN,-,FY 2015,0,M,Sudden Unexplained Infant Death,-
-,2967,IN-F-243,IN,-,FY 2015,0,-,Complications of Closed Head Blunt Force Injuries,-
-,2968,IN-F-244,IN,-,FY 2015,0,-,Sudden Unexplained Death of An Infant,-
-,2969,IN-F-245,IN,Lafayette,FY 2015,0,-,Respiratory Arrest due to Positional Asphyxia due to Co-sleeping,-
-,2970,IN-F-246,IN,-,FY 2015,17,-,Suicide,-
-,2971,IN-F-247,IN,-,FY 2015,14,-,Seizure Disorder,-
-,2972,IN-F-248,IN,Osceola,FY 2015,3,M,Drowning,-
-,2973,IN-F-249,IN,-,FY 2015,0,-,Opiate Overdose,-
-,2974,IN-F-250,IN,Fort Wayne,FY 2015,5,F,Gunshot Wound to the Head,-
-,2975,IN-F-251,IN,-,FY 2015,0,-,Sudden Unexplained Infant Death after co-sleeping with her mother,-
-,2976,IN-F-252,IN,-,FY 2015,0,-,Sudden Unexplained Infant Death,-
-,2977,IN-F-253,IN,-,FY 2015,0,-,Blunt Force Injuries to the head,-
-,2978,IN-F-254,IN,-,FY 2015,0,-,Prematurity,-
-,2979,IN-F-255,IN,-,FY 2015,5,-,Drowning,-
-,2980,IN-F-256,IN,-,FY 2015,1,-,Drowning,-
-,2981,IN-F-257,IN,-,FY 2015,3,-,Drowning,-
-,2982,IN-F-258,IN,-,FY 2015,0,-,Compression asphyxia,-
-,2983,IN-F-259,IN,-,FY 2015,0,-,Compression asphyxia,-
-,2984,IN-F-260,IN,-,FY 2015,3,M,Gunshot Wound to the Head,-
-,2985,IN-F-261,IN,-,FY 2015,0,-,Diffuse Alveolar Hemorrhages of Both Lungs due to Possible Infection or Overlay,-
-,2986,IN-F-262,IN,Columbus,FY 2015,6,F,Drowning,-
-,2987,IN-F-263,IN,-,FY 2015,2,-,Drowning,-
-,2988,IN-F-264,IN,-,FY 2015,0,-,Sudden Unexplained Infant Death,-
+,2725,IN-F-001,IN,-,2011,0,-,Blunt force trauma to the head,-
+,2726,IN-F-002,IN,-,2011,1,-,Blunt force trauma to the head. Also fractured help.,-
+,2727,IN-F-003,IN,Austin,2011,14,F,Gunshot Wound,-
+,2728,IN-F-004,IN,Austin,2011,9,F,Gunshot Wound,-
+,2729,IN-F-005,IN,Austin,2011,4,M,Gunshot Wound,-
+,2730,IN-F-006,IN,-,2011,4,-,Multiple blunt force trauma.,-
+,2731,IN-F-007,IN,Greensburg,2011,12,-,Multiple blunt force trauma.,-
+,2732,IN-F-008,IN,Lawrence,2011,0,F,Smoke inhilation,-
+,2733,IN-F-009,IN,-,2011,2,-,Multiple blunt force trauma.,-
+,2734,IN-F-010,IN,Tipton,2011,4,M,Fractured spine and lacerated aorta,-
+,2735,IN-F-011,IN,-,2011,0,-,"Multiple blunt force trauma, head injuries. Old and new rib injuries.",-
+,2736,IN-F-012,IN,Gary,2011,13,M,"Multiple blunt force trauma to head. Beaten for years, starved on and off.",-
+,2737,IN-F-013,IN,-,2011,2,-,Multiple blunt impact trauma to abdomen,-
+,2738,IN-F-014,IN,-,2011,0,-,"Abusive head trauma, multiple other injuries",-
+,2739,IN-F-015,IN,-,2011,0,-,Abusive blunt force head trauma,-
+,2740,IN-F-016,IN,-,2011,0,M,Blunt force trauma to the head,-
+,2741,IN-F-017,IN,Fort Wayne,2011,3,M,Neck compression,-
+,2742,IN-F-018,IN,-,2011,0,-,"Skull fracture, brain bleeds, retinal hemoraging",-
+,2743,IN-F-019,IN,-,2011,0,-,A moving body against a stationery object.,-
+,2744,IN-F-020,IN,-,2011,0,-,Multiple injuries,-
+,2745,IN-F-021,IN,-,2011,0,-,Multiple injuiries,-
+,2746,IN-F-022,IN,-,2011,0,-,"Multiple injuries, fractures, healed scarring on the face.",-
+,2747,IN-F-023,IN,-,2011,0,-,"Shaken baby, died of brain bleeding seven years later.",-
+,2748,IN-F-024,IN,-,2011,1,-,Abusive head trauma,-
+,2749,IN-F-025,IN,-,2011,0,-,Multiple fractures leading to respiratory complications that led to the child's death five years later.,-
+,2750,IN-F-026,IN,-,2011,0,-,Multiple injuries,-
+,2751,IN-F-027,IN,-,2011,3,M,Skull fractures and brain bleed,-
+,2752,IN-F-028,IN,-,2011,0,-,"Child born prematurely, mother high on drugs at the time. Admitted to doing drugs in the course of her pregnancy. Mother later found dead during investigation.",-
+,2753,IN-F-029,IN,-,2011,4,-,Asphyxia due to heat exposure,-
+,2754,IN-F-030,IN,-,2011,5,-,Asphyxia due to heat exposure,-
+,2755,IN-F-031,IN,-,2011,3,-,Injested pain killers not kept safetly,-
+,2756,IN-F-032,IN,New Carlisle,2011,2,M,Found unresponsive in trunk of car.,-
+,2757,IN-F-033,IN,New Carlisle,2011,4,M,Found unresponsive in trunk of car.,-
+,2758,IN-F-034,IN,Indianapolis,2011,0,F,intracerebral hemorrhages,-
+,2759,IN-F-035,IN,Elkhart,2011,0,F,Injuries after car incident,-
+,2760,IN-F-036,IN,Martinsville,2011,6,M,Gunshot Wound,-
+,2761,IN-F-037,IN,-,2011,0,-,Asphyxia due to overlay,-
+,2762,IN-F-038,IN,-,2011,0,-,Asphyxia due to overlay,-
+,2763,IN-F-039,IN,Indianapolis,2011,3,F,Gunshot wound to the head,-
+,2764,IN-F-040,IN,Crawfordsville,2011,10,F,Gunshot wound to pelvis,-
+,2765,IN-F-041,IN,-,2012,0,-,Blunt force trauma to the head,-
+,2766,IN-F-042,IN,Trafalgar,2012,3,M,Drowned,-
+,2767,IN-F-043,IN,-,2012,5,-,Blunt force trauma,-
+,2768,IN-F-044,IN,-,2012,10,M,Blunt force trauma to the head and thorax,-
+,2769,IN-F-045,IN,-,2012,0,-,Blunt force trauma to the head,-
+,2770,IN-F-046,IN,Shelbyville,2012,1,M,Blunt force trauma to head,-
+,2771,IN-F-047,IN,-,2012,1,M,Blunt force trauma to the head,-
+,2772,IN-F-048,IN,-,2012,0,-,Blunt force trauma to the head,-
+,2773,IN-F-049,IN,Rising Sun,2012,1,M,"Closed head injury with multiple fractures, subdural hemorrhages and retinal hemorrhages.",-
+,2774,IN-F-050,IN,-,2012,2,M,Blunt force trauma to the head,-
+,2775,IN-F-051,IN,Fort Wayne,2012,9,F,Multiple blunt force trauma,-
+,2776,IN-F-052,IN,Hammond,2012,10,M,Gunshot to the back,-
+,2777,IN-F-053,IN,-,2012,0,-,Abusive head trauma,-
+,2778,IN-F-054,IN,-,2012,0,-,Multiple blunt force traumatic injuries,-
+,2779,IN-F-055,IN,-,2012,0,-,Blunt force trauma to the head,-
+,2780,IN-F-056,IN,-,2012,4,-,Drowned,-
+,2781,IN-F-057,IN,-,2012,1,-,Drowned,-
+,2782,IN-F-058,IN,-,2012,6,-,Drowned,-
+,2783,IN-F-059,IN,-,2012,3,-,Drowned,-
+,2784,IN-F-060,IN,-,2012,3,-,Intoxication of an opiate,-
+,2785,IN-F-061,IN,Terre Haute,2012,0,F,Seizure,-
+,2786,IN-F-062,IN,Crown Point,2012,2,F,Gunshot wound to the head,-
+,2787,IN-F-063,IN,-,2012,0,M,Respiratory Arrest,-
+,2788,IN-F-064,IN,Richmond,2012,0,M,Dehydration due to starvation,-
+,2789,IN-F-065,IN,-,2012,0,-,Suffocation,-
+,2790,IN-F-066,IN,Jeffersonville,2012,0,M,Drowning,-
+,2791,IN-F-067,IN,-,2012,0,F,Undetermined,-
+,2792,IN-F-068,IN,-,2012,0,-,Heat exposure,-
+,2793,IN-F-069,IN,-,2012,0,-,Drowning,-
+,2794,IN-F-070,IN,Indianapolis,2012,0,M,Drowning,-
+,2795,IN-F-071,IN,-,2012,0,-,Mother's drug use,-
+,2796,IN-F-072,IN,-,2012,0,-,Positional asphyxia,-
+,2797,IN-F-073,IN,-,2012,3,-,Motor vehicle accident,-
+,2798,IN-F-074,IN,-,2013,2,M,Opiate Toxicity,-
+,2799,IN-F-075,IN,-,2013,0,M,Closed head and neck injuries,-
+,2800,IN-F-076,IN,South Bend,2013,6,F,Stabbing,-
+,2801,IN-F-077,IN,-,2013,1,F,Multiple blunt force injuries,-
+,2802,IN-F-078,IN,Muncie,2013,5,F,Pulmonary embolus secondary to multiple inflicted injuries,-
+,2803,IN-F-079,IN,-,2013,1,-,"Swelling and herniation of the brain, as well as laceration of liver with intraperitoneal hemorrhage from blunt force trauma to the abdomen",-
+,2804,IN-F-080,IN,-,2013,0,-,Blunt force trauma to the head,-
+,2805,IN-F-081,IN,Reelsville,2013,14,M,Gunshot wound to the head,-
+,2806,IN-F-082,IN,-,2013,0,-,Subdural hematoma,-
+,2807,IN-F-083,IN,Indianapolis,2013,3,F,Diffuse subdural hematoma and multiple blunt force injuries,-
+,2808,IN-F-084,IN,-,2013,1,-,Abusive head trauma,-
+,2809,IN-F-085,IN,Indianapolis,2013,2,M,Stabbing,-
+,2810,IN-F-086,IN,-,2013,2,-,Blunt cranio-cerebral traumatic injuries,-
+,2811,IN-F-087,IN,-,2013,1,-,"Complications of blunt cranial-cerebral trauma, skull fracture, subdural hematoma",-
+,2812,IN-F-088,IN,Bloomington,2013,0,F,Overdose of benodiazepines,-
+,2813,IN-F-089,IN,-,2013,0,-,Malnutrition,-
+,2814,IN-F-090,IN,-,2013,0,-,Positional asphyxia,-
+,2815,IN-F-091,IN,-,2013,14,-,Complications of seizure disorder,-
+,2816,IN-F-092,IN,-,2013,4,-,Multiple blunt force injuries (motor vehicle crash),-
+,2817,IN-F-093,IN,Fishers,2013,1,M,Complications from mechanical ashyxia,-
+,2818,IN-F-094,IN,-,2013,0,-,Sudden Unexplained Death in Infancy,-
+,2819,IN-F-095,IN,Carmel,2013,0,M,Sudden Unexplained Death in Infancy,-
+,2820,IN-F-096,IN,-,2013,0,-,Hyperthermia and dehydration,-
+,2821,IN-F-097,IN,-,2013,5,-,Drowning,-
+,2822,IN-F-098,IN,-,2013,2,-,Drowning,-
+,2823,IN-F-099,IN,-,2013,1,-,Drowning,-
+,2824,IN-F-100,IN,-,2013,1,-,Drowning,-
+,2825,IN-F-101,IN,-,2013,0,-,Positional asphyxia,-
+,2826,IN-F-102,IN,-,2013,3,-,Drowning,-
+,2827,IN-F-103,IN,-,2013,2,-,Drowning,-
+,2828,IN-F-104,IN,-,2013,3,-,Drowning,-
+,2829,IN-F-105,IN,-,2013,1,-,Drowning,-
+,2830,IN-F-106,IN,-,2013,3,-,Drowning,-
+,2831,IN-F-107,IN,-,2013,0,-,Blunt force injuries (motor vehicle accident),-
+,2832,IN-F-108,IN,-,2013,0,-,"Not specified, but history of various cardiological issues",-
+,2833,IN-F-109,IN,Evansville,2013,0,F,Respiratory arrest and acute lobar pneumonia,-
+,2834,IN-F-110,IN,-,2013,4,-,Complications of hydrocephalus,-
+,2835,IN-F-111,IN,Warsaw,2013,1,M,Asphyxia due to position and neck compression,-
+,2836,IN-F-112,IN,-,2013,4,-,Drowning,-
+,2837,IN-F-113,IN,Indianapolis,2013,7,M,Carbon monoxide poisoning (apartment fire),-
+,2838,IN-F-114,IN,New Albany,2013,10,M,Drowning,-
+,2839,IN-F-115,IN,New Albany,2013,0,F,Drowning,-
+,2840,IN-F-116,IN,Marion,2013,2,F,"Burns to head, face, and chest",-
+,2841,IN-F-117,IN,-,2013,2,-,Asphyxia due to drowning,-
+,2842,IN-F-118,IN,Muncie,2013,16,M,Drug overdose (multiple drugs),-
+,2843,IN-F-119,IN,-,2013,0,-,Positional asphyxia,-
+,2844,IN-F-120,IN,-,2013,0,-,Anoxic brain injury due to a near drowning,-
+,2845,IN-F-121,IN,-,2013,0,-,Blunt force traumatic injuries,-
+,2846,IN-F-122,IN,-,2013,0,-,Congenital heart disease and tracheobronchomalacia,-
+,2847,IN-F-123,IN,-,2013,0,-,SIDS,-
+,2848,IN-F-124,IN,Salem,2014,0,M,Multiple blunt force injuries,-
+,2849,IN-F-125,IN,-,2014,1,F,Inflicted trauma,-
+,2850,IN-F-126,IN,-,2014,2,M,Sepsis due to pneumonia,-
+,2851,IN-F-127,IN,Indianapolis,2014,2,F,"Multiple acute looped, patterned, blunt force traumatic injries",-
+,2852,IN-F-128,IN,-,2014,2,M,Blunt force trauma to the abdomen,-
+,2853,IN-F-129,IN,Crown Point,2014,0,M,Multiple injuries due to child abuse,-
+,2854,IN-F-130,IN,Evansville,2014,0,F,Asphyxia due to soot inhalation,-
+,2855,IN-F-131,IN,-,2014,0,F,Extensive head injuries due to blunt force trauma,-
+,2856,IN-F-132,IN,Greensburg,2014,14,M,Gunshot wound to the head,-
+,2857,IN-F-133,IN,Lafayette,2014,6,F,Respiratory arrest due to asphyxia due to inhalation of soot and CO poisoning,-
+,2858,IN-F-134,IN,-,2014,1,F,Multiple blunt trauma injuries followed by drowning,-
+,2859,IN-F-135,IN,-,2014,1,-,Blunt force traumatic injury to head,-
+,2860,IN-F-136,IN,Sullivan,2014,1,F,Carbon monoxide intoxication,-
+,2861,IN-F-137,IN,Indianapolis,2014,4,F,Head and neck injuries sustained in motor vehicle accident,-
+,2862,IN-F-138,IN,-,2014,0,M,Positional and mechanical asphyxia,-
+,2863,IN-F-139,IN,Lafayette,2014,3,M,Respiratory arrest due to inhalation of super heated air and carbon monoxide poisoning,-
+,2864,IN-F-140,IN,Lafayette,2014,3,M,Respiratory arrest due to inhalation of super heated air and carbon monoxide poisoning,-
+,2865,IN-F-141,IN,Marion,2014,1,M,Asphyxiation due to drowning,-
+,2866,IN-F-142,IN,-,2014,0,M,Sudden Unexplained Infant Death,-
+,2867,IN-F-143,IN,-,2014,0,-,Sudden Unexplained Death in Infancy,-
+,2868,IN-F-144,IN,-,2014,0,-,Positional asphyxia,-
+,2869,IN-F-145,IN,Michigan City,2014,5,M,Asphyxia due to hanging,-
+,2870,IN-F-146,IN,Indianapolis,2014,0,M,Multiple blunt force trauma injuries due to motor vehicle accident,-
+,2871,IN-F-147,IN,-,2014,3,-,Anoxic brain injury from drowning,-
+,2872,IN-F-148,IN,-,2014,0,F,Perinatal asphyxia with morbid encephalopathy of a 25 week gestation female,-
+,2873,IN-F-149,IN,-,2014,0,M,Methadone toxicity,-
+,2874,IN-F-150,IN,-,2014,2,M,Drowning,-
+,2875,IN-F-151,IN,-,2014,0,M,Pharmacologic intoxication,-
+,2876,IN-F-152,IN,-,2014,0,M,Drowning,-
+,2877,IN-F-153,IN,Columbus,2014,11,M,Multiple trauma to the head due to ATV accident,-
+,2878,IN-F-154,IN,Loogootee,2014,0,-,Compression asphyxia,-
+,2879,IN-F-155,IN,-,2014,0,F,Sudden Unexplained Infant Death,-
+,2880,IN-F-156,IN,-,2014,1,F,Drowning,-
+,2881,IN-F-157,IN,-,2014,0,M,Complications of bacterial pneumonia,-
+,2882,IN-F-158,IN,-,2014,1,F,Pulomnary edema and congestion due to asphyxia event due to cervical ligature,-
+,2883,IN-F-159,IN,-,2014,0,-,Sudden Unexplained Infant Death,-
+,2884,IN-F-160,IN,Shipshewana,2014,7,M,"Blunt force trauma to the head, fatal cardiac arrythmia, and multi-system trauma",-
+,2885,IN-F-161,IN,-,2014,2,-,Gunshot wound to the head,-
+,2886,IN-F-162,IN,-,2014,2,-,Hyperthermia,-
+,2887,IN-F-163,IN,New Albany,2014,2,F,Carbon monoxide intoxication from house fire,-
+,2888,IN-F-164,IN,New Albany,2014,6,M,Carbon monoxide intoxication from house fire,-
+,2889,IN-F-165,IN,New Albany,2014,4,F,Carbon monoxide intoxication from house fire,-
+,2890,IN-F-166,IN,Vincennes,2014,7,M,Drowning,-
+,2891,IN-F-167,IN,Indianapolis,2014,3,M,Drowning,-
+,2892,IN-F-168,IN,-,2014,3,M,Drowning,-
+,2893,IN-F-169,IN,Merrillville,2014,4,M,Gunshot wound to the head,-
+,2894,IN-F-170,IN,Granger,2014,0,-,"Homicidal violence with possible exposure, blood loss, and asphyxiation",-
+,2895,IN-F-171,IN,Greensburg,2014,13,M,Gunshot wound to torso/chest,-
+,2896,IN-F-172,IN,Warsaw,2014,12,M,Carbon monoxide poisoning,-
+,2897,IN-F-173,IN,Aurora,2014,2,F,Drowning,-
+,2898,IN-F-174,IN,Aurora,2014,2,F,Drowning,-
+,2899,IN-F-175,IN,-,2014,1,M,Ligature strangulation,-
+,2900,IN-F-176,IN,Harvey,2014,1,M,Blunt force trauma (ATV accident),-
+,2901,IN-F-177,IN,-,2014,0,-,Sudden Unexpected Death in Infancy (SUDI),-
+,2902,IN-F-178,IN,Hammond,2014,3,F,Extensive burns and smoke inhalation (house fire),-
+,2903,IN-F-179,IN,Hammond,2014,0,M,Extensive burns and smoke inhalation (house fire),-
+,2904,IN-F-180,IN,Hammond,2014,4,F,Extensive burns and charred body (house fire),-
+,2905,IN-F-181,IN,Michigan City,2014,3,M,Gunshot wound to the head,-
+,2906,IN-F-182,IN,Beech Grove,2014,14,M,Complications of severe emaciation and dehydration due to Crohn's Disease,-
+,2907,IN-F-183,IN,-,2014,0,F,Toxic effects of methadone,-
+,2908,IN-F-184,IN,-,2014,0,M,E ncephalomalacia following asphyxia from aspiration of gastric contents,-
+,2909,IN-F-185,IN,-,2014,2,M,Drowning,-
+,2910,IN-F-186,IN,Kokomo,2014,13,M,"Multiple traumatic blunt force injuries to head, chest, and abdomen (moped accident)",-
+,2911,IN-F-187,IN,Marion,2014,7,M,Drowning,-
+,2912,IN-F-188,IN,-,2014,1,M,Drowning,-
+,2913,IN-F-189,IN,-,2015,0,-,Herniation of the brain due to an acute Subdural Hematoma,-
+,2914,IN-F-190,IN,East Chicago,2015,1,F,Acute Alcohol Intoxication and Extensive Burn Wounds,-
+,2915,IN-F-191,IN,-,2015,17,-,Broken neck,-
+,2916,IN-F-192,IN,Indianapolis,2015,4,M,Multiple blunt force trauma,-
+,2917,IN-F-193,IN,Clarkesville,2015,3,F,Battered child syndrome,-
+,2918,IN-F-194,IN,-,2015,3,-,Multiple blunt force injuries,-
+,2919,IN-F-195,IN,Ellettsville,2015,15,M,Pharmacological Overdose of Oxycodone and Diazepam,-
+,2920,IN-F-196,IN,-,2015,1,-,Non-accidental Blunt Force Head Injuries.,-
+,2921,IN-F-197,IN,-,2015,1,-,Blunt Force Traumatic Injuries to the head,-
+,2922,IN-F-198,IN,South Bend,2015,0,M,Homicidal Asphyxia,-
+,2923,IN-F-199,IN,-,2015,1,-,"Ruptured Stomach with chemical peritonitis, fracture of the cervical spine, and extensive scalp hemorrhages",-
+,2924,IN-F-200,IN,-,2015,0,-,"Craniocerebral Trauma, multiple skull fractures, multiple brain bleeds, and brain swelling",-
+,2925,IN-F-201,IN,Indianapolis,2015,0,F,Multiple Blunt Force Traumatic Injuries,-
+,2926,IN-F-202,IN,-,2015,1,-,Multiple Blunt Force Injuries,-
+,2927,IN-F-203,IN,-,2015,0,F,Blunt force trauma to the head,-
+,2928,IN-F-204,IN,Indianapolis,2015,1,F,Multiple Blunt Force Traumatic Injuries,-
+,2929,IN-F-205,IN,Greenwood,2015,0,M,Blunt Force Injury to the Head,-
+,2930,IN-F-206,IN,New Paris,2015,1,M,Blunt force injuries to the head,-
+,2931,IN-F-207,IN,CITY OF DEATH,2015,0,-,Blunt force trauma to the head,-
+,2932,IN-F-208,IN,Jasper,2015,1,M,"Multiple Injuries to the head, torso, and extremities, including blunt force injuries and partial-thickness burns",-
+,2933,IN-F-209,IN,Indianapolis,2015,3,F,Multiple Blunt Force Traumatic Injuries due to Assault,-
+,2934,IN-F-210,IN,Indianapolis,2015,1,M,Complications of Blunt Force Trauma to the Abdomen,-
+,2935,IN-F-211,IN,Underwood,2015,4,M,Inflicted Closed Head Trauma,-
+,2936,IN-F-212,IN,CITY OF DEATH,2015,0,-,Blunt Force Injuries of the Head,-
+,2937,IN-F-213,IN,Paoli,2015,3,F,Gunshot wound,-
+,2938,IN-F-214,IN,Paoli,2015,6,M,Gunshot wound,-
+,2939,IN-F-215,IN,Muncie,2015,0,M,Blunt Force Trauma to the Head,-
+,2940,IN-F-216,IN,CITY OF DEATH,2015,0,-,Multiple Blunt Force Traumatic Injuries,-
+,2941,IN-F-217,IN,Wane,2015,3,M,Blunt Force Trauma,-
+,2942,IN-F-218,IN,Chalmers,2015,0,M,Closed Head Blunt Force Traumatic Injury,-
+,2943,IN-F-219,IN,Greenfield,2015,1,F,Multiple Blunt Force Traumatic Injuries due to Assault,-
+,2944,IN-F-220,IN,-,2015,0,M,Positional Asphyxia,-
+,2945,IN-F-221,IN,-,2015,0,M,Sudden Infant Death Syndrome,-
+,2946,IN-F-222,IN,-,2015,0,M,Sudden Unexpected Infant Death,-
+,2947,IN-F-223,IN,-,2015,3,F,Herniation of the brain due to Closed Head Injury,-
+,2948,IN-F-224,IN,-,2015,1,F,Complications from Anoxic Brain Injury due to Drowning,-
+,2949,IN-F-225,IN,-,2015,0,-,Positional Asphyxia with a contributing factor ofAcute Mixed Drug Intoxication,-
+,2950,IN-F-226,IN,-,2015,0,-,Sudden Infant Death Syndrome with a contributing factor of co-sleeping with adults,-
+,2951,IN-F-227,IN,Kokomo,2015,0,-,Gunshot Wound to the Head,-
+,2952,IN-F-228,IN,-,2015,0,F,Sudden Unexplained Infant Death after co-sleeping with her mother,-
+,2953,IN-F-229,IN,Indianapolis,2015,0,F,Unknown causes,-
+,2954,IN-F-230,IN,-,2015,17,-,Complications from seizure disorder,-
+,2955,IN-F-231,IN,-,2015,1,-,Multiple Blunt Force Injuries secondary to a being struck by a motor vehicle as a pedestrian,-
+,2956,IN-F-232,IN,-,2015,2,-,Drowning,-
+,2957,IN-F-233,IN,-,2015,0,-,Asphyxia due to Unsafe Sleeping Conditions,-
+,2958,IN-F-234,IN,Florence,2015,6,-,Blunt Force Trauma to the Head as a result of an All-Terrain Vehicle (ATV) Accident,-
+,2959,IN-F-235,IN,Scottsburg,2015,4,-,Blunt Force Trauma to the Head,-
+,2960,IN-F-236,IN,Greenwood,2015,11,M,Asphyxiation,-
+,2961,IN-F-237,IN,-,2015,5,-,Asphyxiation,-
+,2962,IN-F-238,IN,-,2015,8,-,Multiple Blunt Force Traumatic Injuries,-
+,2963,IN-F-239,IN,-,2015,0,-,Positional Asphyxia,-
+,2964,IN-F-240,IN,Bloomington,2015,4,M,Drowning,-
+,2965,IN-F-241,IN,-,2015,0,M,Asphyxiation due to co-sleeping with parents,-
+,2966,IN-F-242,IN,-,2015,0,M,Sudden Unexplained Infant Death,-
+,2967,IN-F-243,IN,-,2015,0,-,Complications of Closed Head Blunt Force Injuries,-
+,2968,IN-F-244,IN,-,2015,0,-,Sudden Unexplained Death of An Infant,-
+,2969,IN-F-245,IN,Lafayette,2015,0,-,Respiratory Arrest due to Positional Asphyxia due to Co-sleeping,-
+,2970,IN-F-246,IN,-,2015,17,-,Suicide,-
+,2971,IN-F-247,IN,-,2015,14,-,Seizure Disorder,-
+,2972,IN-F-248,IN,Osceola,2015,3,M,Drowning,-
+,2973,IN-F-249,IN,-,2015,0,-,Opiate Overdose,-
+,2974,IN-F-250,IN,Fort Wayne,2015,5,F,Gunshot Wound to the Head,-
+,2975,IN-F-251,IN,-,2015,0,-,Sudden Unexplained Infant Death after co-sleeping with her mother,-
+,2976,IN-F-252,IN,-,2015,0,-,Sudden Unexplained Infant Death,-
+,2977,IN-F-253,IN,-,2015,0,-,Blunt Force Injuries to the head,-
+,2978,IN-F-254,IN,-,2015,0,-,Prematurity,-
+,2979,IN-F-255,IN,-,2015,5,-,Drowning,-
+,2980,IN-F-256,IN,-,2015,1,-,Drowning,-
+,2981,IN-F-257,IN,-,2015,3,-,Drowning,-
+,2982,IN-F-258,IN,-,2015,0,-,Compression asphyxia,-
+,2983,IN-F-259,IN,-,2015,0,-,Compression asphyxia,-
+,2984,IN-F-260,IN,-,2015,3,M,Gunshot Wound to the Head,-
+,2985,IN-F-261,IN,-,2015,0,-,Diffuse Alveolar Hemorrhages of Both Lungs due to Possible Infection or Overlay,-
+,2986,IN-F-262,IN,Columbus,2015,6,F,Drowning,-
+,2987,IN-F-263,IN,-,2015,2,-,Drowning,-
+,2988,IN-F-264,IN,-,2015,0,-,Sudden Unexplained Infant Death,-
 ,2989,KY-F-001,KY,Louisville,2012,6,M,Gunshot wound,-
 ,2990,KY-F-002,KY,Louisville,2012,5,M,Gunshot wound,-
 ,2991,KY-F-003,KY,-,2012,0,M,Head trauma,Y
@@ -3852,15 +3852,15 @@
 ,3849,MN-F-003,MN,Anoka County,2011,0,F,Anoxic brain injury secondary to resuscitated bathtub drowning,Y
 ,3850,MN-F-004,MN,Anoka County,2011,0,F,Shaken baby syndrome,Y
 ,3851,MN-F-007,MN,Beltrami County,2014,6,F,Hypothermia due to exposure,-
-,3852,MN-F-008,MN,Beltrami County,-,2,F,Fresh water drowning,-
+,3852,MN-F-008,MN,Beltrami County,,2,F,Fresh water drowning,-
 ,3853,MN-F-009,MN,Benton County,2013,0,F,Positional Asphyxia,Y
-,3854,MN-F-010,MN,Carver County,-,0,F,Group B Strep Infection,Y
+,3854,MN-F-010,MN,Carver County,,0,F,Group B Strep Infection,Y
 ,3855,MN-F-011,MN,Cass County,2015,1,F,Ingestion of prescription medication,-
 ,3856,MN-F-012,MN,Chisago County,2011,0,F,Traumatic Brain Injury,-
 ,3857,MN-F-013,MN,Clay County,2013,0,F,Hyperthermia,Y
-,3858,MN-F-014,MN,"Dodge, Steel or Waseca County",-,0,M,Sudden Infant Death Syndrome,-
-,3859,MN-F-015,MN,"Dodge, Steele or Waseca County",-,0,M,Asphyxiation,-
-,3860,MN-F-016,MN,Faribault or Martin County,-,6,M,Injuries sustained in a car accident,-
+,3858,MN-F-014,MN,"Dodge, Steel or Waseca County",,0,M,Sudden Infant Death Syndrome,-
+,3859,MN-F-015,MN,"Dodge, Steele or Waseca County",,0,M,Asphyxiation,-
+,3860,MN-F-016,MN,Faribault or Martin County,,6,M,Injuries sustained in a car accident,-
 ,3861,MN-F-017,MN,Hennepin County,2012,0,F,Positional Asphyxia,-
 ,3862,MN-F-018,MN,Hennepin County,2012,0,F,Sudden Unexplained Infant Death,-
 ,3863,MN-F-019,MN,Hennepin County,2012,2,M,"Sepsis from burn, hemoperitoneum, peritonitis, abdominal & head injuries",-
@@ -3895,24 +3895,24 @@
 ,3892,MN-F-048,MN,Hennepin County,2015,5,F,Inhalation of products of combustion and thermal injury,-
 ,3893,MN-F-049,MN,Hennepin County,2015,0,M,Sudden Unexplained Infant Death; potentially unsafe sleep environment,-
 ,3894,MN-F-053,MN,"Lincoln, Lyon, Murray, Pipestone, Redwood, or Rock County",2013,2,M,Peritonitis due to rupture of the abdomen due to blunt force injury to the abdomen,-
-,3895,MN-F-057,MN,Mille Lacs County,-,0,M,-,-
-,3896,MN-F-058,MN,Mille Lacs County,-,1,M,Shaken Baby Syndrome,-
+,3895,MN-F-057,MN,Mille Lacs County,,0,M,-,-
+,3896,MN-F-058,MN,Mille Lacs County,,1,M,Shaken Baby Syndrome,-
 ,3897,MN-F-059,MN,Morrison County,2011,2,M,Asphyxia due to external thorastic compression,Y
 ,3898,MN-F-060,MN,-,2014,16,-,Asphyxia by hanging,-
 ,3899,MN-F-061,MN,Olmsted County,2011,0,F,Cardiac Arrest,-
 ,3900,MN-F-062,MN,Olmsted County,2011,0,M,Head and blunt traumatic injuries,-
 ,3901,MN-F-063,MN,Olmsted County,2014,9,F,Gunshot Wound,-
-,3902,MN-F-064,MN,Otter Tail County,-,0,M,Shaken Baby Syndrome,Y
+,3902,MN-F-064,MN,Otter Tail County,,0,M,Shaken Baby Syndrome,Y
 ,3903,MN-F-065,MN,Pine County,2014,3,M,Blunt force injury to the head,-
-,3904,MN-F-066,MN,Pine County,-,16,M,Gunshot wound to the head - suicide,-
+,3904,MN-F-066,MN,Pine County,,16,M,Gunshot wound to the head - suicide,-
 ,3905,MN-F-068,MN,Pope County,2013,4,M,Blunt force trauma to the abdomen,-
 ,3906,MN-F-069,MN,Ramsey County,2013,0,M,-,Y
 ,3907,MN-F-070,MN,Ramsey County,2014,6,F,Drowning - Intentional,-
 ,3908,MN-F-071,MN,Ramsey County,2014,0,F,Homicidal Violence,-
 ,3909,MN-F-072,MN,Ramsey County,2015,0,M,Suffocation,-
 ,3910,MN-F-073,MN,Ramsey County,2015,0,F,-,-
-,3911,MN-F-076,MN,Ramsey County,-,0,M,-,Y
-,3912,MN-F-077,MN,Ramsey County,-,0,F,Asphyxia - Co-sleeping,Y
+,3911,MN-F-076,MN,Ramsey County,,0,M,-,Y
+,3912,MN-F-077,MN,Ramsey County,,0,F,Asphyxia - Co-sleeping,Y
 ,3913,MN-F-078,MN,Saint Louis County,2011,0,M,Positional asphyxia,Y
 ,3914,MN-F-079,MN,Saint Louis County,2011,0,M,Injuries sustained from a DUI car accident,-
 ,3915,MN-F-080,MN,Saint Louis County,2012,2,F,Undetermined,-
@@ -3925,13 +3925,13 @@
 ,3922,MN-F-087,MN,Sherburne County,2013,6,F,Drowning in fresh water,-
 ,3923,MN-F-088,MN,Sherburne County,2013,1,F,Drowning,Y
 ,3924,MN-F-089,MN,Sherburne County,2015,1,M,Complications of ischemic right cerebral infarct associated with multiple blunt force injuries,-
-,3925,MN-F-090,MN,Sherburne County,-,1,M,Asphyxiation,-
-,3926,MN-F-091,MN,Sibley County,-,1,M,Drowning,-
+,3925,MN-F-090,MN,Sherburne County,,1,M,Asphyxiation,-
+,3926,MN-F-091,MN,Sibley County,,1,M,Drowning,-
 ,3927,MN-F-092,MN,Stearns County,2012,1,M,-,Y
 ,3928,MN-F-093,MN,Stearns County,2013,1,F,-,-
 ,3929,MN-F-094,MN,Stearns County,2014,0,M,-,-
-,3930,MN-F-095,MN,Washington County,-,0,M,Asphyxiation - Co-sleeping,-
-,3931,MN-F-096,MN,Washington County,-,1,F,Physical Trauma,-
+,3930,MN-F-095,MN,Washington County,,0,M,Asphyxiation - Co-sleeping,-
+,3931,MN-F-096,MN,Washington County,,1,F,Physical Trauma,-
 ,3932,MS-F-001,MS,Dundee,2011,-,F,-,-
 ,3933,MS-F-002,MS,McComb,2011,-,M,-,Y
 ,3934,MS-F-003,MS,Greenville,2011,3,M,Thermal injury as a result of heat from a stove,-
@@ -3987,7 +3987,7 @@
 ,3984,MS-F-053,MS,Jackson,2014,-,M,-,Y
 ,3985,MS-F-054,MS,Vicksburg,2014,-,F,-,-
 ,3986,MS-F-055,MS,Sardis,2014,-,-,-,-
-,3987,MS-F-056,MS,Tupelo,-,-,-,-,-
+,3987,MS-F-056,MS,Tupelo,,-,-,-,-
 ,3988,MS-F-057,MS,West Point,2014,-,M,-,Y
 ,3989,MS-F-058,MS,Saucier,2014,0,M,-,Y
 ,3990,MS-F-059,MS,Grenada,2014,3,M,Blunt force trauma,-
@@ -4030,12 +4030,12 @@
 ,4027,MS-F-096,MS,Centreville,2015,0,M,-,Y
 ,4028,MS-F-097,MS,Hattiesburg,2015,0,F,-,Y
 ,4029,MS-F-108,MS,Bolton,2015,2,M,-,Y
-,4030,MS-F-122,MS,Meridian,-,-,F,-,-
+,4030,MS-F-122,MS,Meridian,,-,F,-,-
 ,4031,NC-F-001,NC,Haw River,2015,16,F,Motor vehicle accident,-
 ,4032,NC-F-002,NC,Burlington,2015,7,F,Motor vehicle accident,-
 ,4033,NC-F-004,NC,Eden,2013,1,F,Mechanical asphyxiation,Y
 ,4034,NC-F-005,NC,Peachland,2014,3,F,Gunshot wound,Y
-,4035,NC-F-006,NC,Brunswick County,-,-,-,-,-
+,4035,NC-F-006,NC,Brunswick County,,-,-,-,-
 ,4036,NC-F-008,NC,Asheville,2011,4,M,Blunt force trauma,-
 ,4037,NC-F-010,NC,Asheville,2012,8,F,Motor vehicle accident,Y
 ,4038,NC-F-011,NC,Candler,2011,4,M,Blunt force trauma,-
@@ -4056,9 +4056,9 @@
 ,4053,NC-F-026,NC,Knotts Island,2011,0,F,Multiple stab wounds,-
 ,4054,NC-F-027,NC,Thomasville,2011,4,F,Mechanical asphyxiation,-
 ,4055,NC-F-028,NC,Davie County,2015,6,F,Motor vehicle accident,Y
-,4056,NC-F-029,NC,Durham County,-,-,-,-,-
-,4057,NC-F-030,NC,Durham County,-,-,-,-,-
-,4058,NC-F-031,NC,Durham County,-,-,-,-,-
+,4056,NC-F-029,NC,Durham County,,-,-,-,-
+,4057,NC-F-030,NC,Durham County,,-,-,-,-
+,4058,NC-F-031,NC,Durham County,,-,-,-,-
 ,4059,NC-F-032,NC,Durham,2014,9,M,Gunshot wound,Y
 ,4060,NC-F-033,NC,Durham County,2011,5,M,Gunshot wound,Y
 ,4061,NC-F-034,NC,Tarboro,2011,0,F,"SIDS, cardiac arrest",Y
@@ -4118,7 +4118,7 @@
 ,4115,NC-F-098,NC,Wayne County,2013,1,M,Severe malnutrition,-
 ,4116,NC-F-099,NC,Wayne County,2014,3,F,Possible asphyxia,-
 ,4117,NC-F-100,NC,Winston-Salem,2011,0,M,Subdural hematoma,-
-,4118,NC-F-101,NC,Forsyth County,-,15,F,-,Y
+,4118,NC-F-101,NC,Forsyth County,,15,F,-,Y
 ,4119,NC-F-102,NC,Winston-Salem,2014,2,M,Injury to abdomen,Y
 ,4120,ND-F-001,ND,-,2012,1,M,Blunt Head Injury in Battered Child Syndrome,-
 ,4121,ND-F-002,ND,-,2012,1,M,Hypoxic Encephalopathy,Y
@@ -6202,7 +6202,7 @@
 ,6199,VT-F-012,VT,Bellows Falls,2014,0,F,"Overlay, parent",-
 ,6200,VT-F-013,VT,Island Pond,2015,3,M,"ROH - Ejected from car, no restraint",-
 ,6201,VT-F-014,VT,Bradford,2015,0,M,-,-
-,6202,WA-F-002,WA,Everett,-,-,F,-,Y
+,6202,WA-F-002,WA,Everett,,-,F,-,Y
 ,6203,WA-F-014,WA,-,2015,0,-,Natural causes,Y
 ,6204,WA-F-015,WA,Clark County,2015,0,M,SUID,Y
 ,6205,WA-F-016,WA,-,2015,0,F,Homicide (no cause reported),-

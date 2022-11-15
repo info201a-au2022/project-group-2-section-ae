@@ -1,24 +1,21 @@
 library(tidyverse)
+library(lintr)
 
-abuse <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/totaldata.csv")
-library(tidyverse)
+abuse <- read.csv("../data/totaldata.csv")
 
-abuse <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/totaldata.csv")
-
-abusetable <- abuse %>%
-  mutate(new_cases = 1) %>%
-  group_by(state) %>%
-  summarize(cases = sum(new_cases))
-
-abusetable <- abusetable[-c(5), ]
-
-most_year <- function() {
+most_state <- function() {
   abusetable <- abuse %>%
     mutate(new_cases = 1) %>%
     group_by(state) %>%
-    summarize(cases = sum(new_cases)) %>%
+    summarize(cases = sum(new_cases))
+
+  abusetable <- abusetable[-c(5), ]
+
+  mostyear <- abusetable %>%
     filter(cases == max(cases)) %>%
     pull(state)
+
+  return(mostyear)
 }
 
 
@@ -27,58 +24,60 @@ least_state <- function() {
     mutate(new_cases = 1) %>%
     group_by(state) %>%
     summarize(cases = sum(new_cases))
-  
+
 abusetable <- abusetable[-c(5), ]
-  
+
 leaststatecases <- abusetable %>%
   filter(cases == min(cases)) %>%
   pull(state)
+
+return(leaststatecases)
 }
 
-abusetable <- abuse %>%
-  mutate(new_cases = 1) %>%
-  group_by(year_fy) %>%
-  summarize(cases = sum(new_cases))
 
 most_year <- function() {
-  abusetable <- abuse %>%
+  abuseyeartable <- abuse %>%
     mutate(new_cases = 1) %>%
-    group_by(year_fy) %>%
+    group_by(year_) %>%
     summarize(cases = sum(new_cases))
-  
-  abusetable <- abusetable[-c(5), ]
-  
-mostyearcases <- abusetable %>%
+
+  abuseyeartable <- abuseyeartable[-c(7), ]
+
+mostyearcases <- abuseyeartable %>%
   filter(cases == max(cases)) %>%
-  pull(year_fy)
-  
+  pull(year_)
+
+return(mostyearcases)
 }
 
 
 least_year <- function() {
-  abusetable <- abuse %>%
+  abuseyeartable <- abuse %>%
     mutate(new_cases = 1) %>%
-    group_by(year_fy) %>%
+    group_by(year_) %>%
     summarize(cases = sum(new_cases))
-  
-  abusetable <- abusetable[-c(5), ]
-  
-  mostyearcases <- abusetable %>%
+
+abuseyeartable <- abuseyeartable[-c(7), ]
+
+leastyearcases <- abuseyeartable %>%
     filter(cases == min(cases)) %>%
-    pull(year_fy)
+    pull(year_)
+
+return(leastyearcases)
 }
+
 
 avg_year <- function() {
-  abusetable <- abuse %>%
+  abuseyeartable <- abuse %>%
     mutate(new_cases = 1) %>%
-    group_by(year_fy) %>%
+    group_by(year_) %>%
     summarize(cases = sum(new_cases))
-  
-  abusetable <- abusetable[-c(5), ]
-  
-  avgcases <- abusetable %>%
+
+abuseyeartable <- abuseyeartable[-c(7), ]
+
+avgcases <- abuseyeartable %>%
     summarize(avgcases = mean(cases))
     pull(avgcases)
+
+return(avgcases)
 }
-
-
