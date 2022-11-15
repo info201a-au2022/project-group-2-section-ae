@@ -7,16 +7,24 @@ abusetable <- abuse %>%
   group_by(state) %>%
   summarize(cases = sum(new_cases))
   
-  
-  
-
+abusetable <- abusetable[-c(5), ]
 
 most_year <- function() {
-   abuse %>%
-    filter(cases == max(cases)) %>%
-    return(year)
+  
+  abusetable <- abuse %>%
+    mutate(new_cases = 1) %>%
+    group_by(state) %>%
+    summarize(cases = sum(new_cases))
+  
+  mostcases <- abusetable %>%
+    filter(cases = max(cases)) %>%
+    pull(state)
+  
+  return(mostcases)
+  
 }
 
+most_year()
 
 most_state <- function() {
   abuse %>%
