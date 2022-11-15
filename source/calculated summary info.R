@@ -25,7 +25,11 @@ most_year <- function() {
   
 }
 
-most_year()
+most_year <- function() {
+  abusetable %>%
+    filter(cases == max(cases)) %>%
+    return(state)
+}
 
 most_state <- function() {
   abuse %>%
