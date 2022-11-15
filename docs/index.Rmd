@@ -18,8 +18,13 @@ kable(total_table,
       caption="Cases in each state",
       col.names= c("state", "number of cases"),
       align= 'cc')
+
 ```
 
+Figure 1. We included the table because we thought it was important to include
+the locations of the cases. The table reveals how many cases of child abuse
+that there are in each state. Using this data,we found that Texas has the most
+number of cases, while North Dakota has the least number of cases.
 
 ## What is this file for?
 
