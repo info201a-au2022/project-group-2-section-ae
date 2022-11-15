@@ -1,72 +1,56 @@
 ---
-title: "Blood Donation Demographics Before and After the COVID-19 Pandemic"
-author: "Sheamin Kim, LinhChi Le, Varsha Venkatesen"
+title: "Analysis of Child Abuse Cases and Reports from 2015-2019 in the United States"
+author: "Sheamin Kim, LinhChi Le, Varsha Venkatesan"
 date: "11/13/2022"
 output: html_document
 ---
-These datasets will allow us to evalute the extent to which child abuse affects United States residents. According to our data, the state with the most cases of child abuse was 'r most_state()'. The state with the least number of child abuse cases was 'r least_state()'. The year with the most number of child abuse cases was 'r most_year()'. The year with the least number of child abuse cases was 'r least_year()'. The average number cases per year was 'r avg_year()'. 
 
 ```{r setup, include=FALSE}
 source("../source/chart 1 code.R")
 source("../source/chart 2 code.R")
 source("../source/chart 3 code.R")
 source("../source/table of summary info.R")
+source("../source/calculated summary info.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Dynamic Paragraph/Summary
+These data sets will allow us to evaluate the extent to which child abuse affects United States residents. Our data was sourced by the U.S. Department of Health & Human Services / ACF. Being a government organization, this department is incredibly reliable for domestic data. The data was also collected in November 2021, meaning it is recent and mostly up to date. By analyzing the statistics, we hope to figure out which states need the most resources in preventing child abuse and increase their health, safety, and well-being. According to our data, the state with the most cases of child abuse was  `r most_state()`. The state with the least number of child abuse cases was `r least_state()`. The year with the most number of child abuse cases was `r most_year()`. The year with the least number of child abuse cases was `r least_year()`. The average number cases per year was `r avg_year()`. With these numbers, we are given a better idea of where government agencies as well as other third party organizations should be focusing or allocating their resources to reduce the average number of reported child abuse cases throughout the United States. 
+
+
+# Summary Table
+
+
+Figure 1. This table shows the average number of cases per state.
+We included the table because we thought it was important to include
+the locations of the cases. The table reveals how many cases of child abuse
+that there are in each state. Using this data, we found that Texas has the most
+number of cases, while North Dakota has the least number of cases.
 ```{r echo=F}
 kable(total_table,
-      caption="Cases in each state",
+      caption="Cases In Each State",
       col.names= c("state", "number of cases"),
       align= 'cc')
 
 ```
 
-Figure 1. We included the table because we thought it was important to include
-the locations of the cases. The table reveals how many cases of child abuse
-that there are in each state. Using this data,we found that Texas has the most
-number of cases, while North Dakota has the least number of cases.
+# Plots
 
-## What is this file for?
 
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
-
-* Please see Canvas for more details.
-
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
-```
-
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
-
-> `r msg` Hope you have a good day!! 
-
-## ABOUT THIS FILE: 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
+```{r, echo=FALSE}
 chart1
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Figure 2. This stacked bar chart shows the differences in child abuse deaths and abused children per year from 2015 to 2019. This chart indicates that there about as half as many deaths as victims, and that the number of victims decreased slightly in 2019. This chart was included to analyze the difference between deaths and cases of child abuse.
+
+```{r, echo=FALSE}
+chart2
+```
+
+Figure 3. This histogram indicates the rate of abused children per 1000 children from 2015 to 2019, separated by age of children from <1 to 17 years of age. As children grow up, a decreasing trend of abuse cases can be seen. Most abused children are abused at younger than the age of one, and 17 year-olds are abused the least. This chart was included to visualize the different rate of cases by age of abused children.
+
+```{r, echo=FALSE}
+chart3
+```
+
+Figure 4. This time series compares the difference between number of perpetrators of abuse and the number of child victims investigated from 2015 to 2019 in the United States. Perpetrators are far more counted than investigated children, showing that many cases of abuse do not get investigated. Both values have steadily increased over the years, though it is yet unclear whether this is due to better reporting, or actually rising child abuse cases. This chart was included to see how numbers of perpetrators compare to investigated child abuse cases. 

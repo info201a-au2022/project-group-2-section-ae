@@ -17,4 +17,5 @@ chart3 <- ggplot(chart3data, aes(x = State, group = 1)) +
   scale_y_continuous(sec.axis = sec_axis(~. / 7, name = "Perpetrators"),
                      labs(y = "Children Investigated")) +
   scale_color_manual(name = "Legend", values =
-                       c("Children Investigated" = "blue", "Number of Perpetrators" = "darkgrey"))
+                       c("Children Investigated" = "blue", "Number of Perpetrators" = "darkgrey")) +
+  labs(x = "Year")
