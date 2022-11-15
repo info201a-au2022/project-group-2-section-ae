@@ -22,8 +22,25 @@ most_state <- function() {
   
 }
 
-c <- most_state()
 
+
+least_state <- function() {
+  abusetable <- abuse %>%
+    mutate(new_cases = 1) %>%
+    group_by(state) %>%
+    summarize(cases = sum(new_cases))
+  
+abusetable <- abusetable[-c(5), ]
+  
+leaststatecases <- abusetable %>%
+  filter(cases == min(cases)) %>%
+  pull(state)
+}
+
+abusetable <- abuse %>%
+  mutate(new_cases = 1) %>%
+  group_by(year_fy) %>%
+  summarize(cases = sum(new_cases))
 
 most_year <- function() {
   abusetable <- abuse %>%
@@ -31,6 +48,11 @@ most_year <- function() {
     group_by(state) %>%
     summarize(cases = sum(new_cases))
   
+  abusetable <- abusetable[-c(5), ]
+  
+mostyearcases <- abusetable %>%
+  filter(cases == max(cases)) %>%
+  pull(year_fy)
   
 }
-
+f <- most_year()
