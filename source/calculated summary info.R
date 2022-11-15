@@ -77,8 +77,8 @@ avg_year <- function() {
   abusetable <- abusetable[-c(5), ]
   
   avgcases <- abusetable %>%
-    (mean(cases))
+    summarize(avgcases = mean(cases))
     pull(avgcases)
 }
 
-j <- avg_year()
+
