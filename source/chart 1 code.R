@@ -4,24 +4,24 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 
-#1: age vs donation, histogram (2016)
+#1: time series, deaths vs victims 2016-2019
 
 #read.csv data in
-data2016 <- read.csv("../data/2016data.csv")
+victimsdata <- read.csv("../data/childvictimstrend.csv")
+deathsdata <- read.csv("../data/deathsdata.csv")
+alldata <- merge(victimsdata, deathsdata, by = "Year")
 
-#data <- read.csv("2016data.csv")
+# chart1 <- ggplot(victimsdata, aes(x = Year, y = National)) +
+#   geom_line(data = victimsdata, aes(x = Year, y = National), col = "blue") +
+#   geom_line(data = deathsdata, aes(x = Year, y = National * 450), col = "red") +
+#   scale_y_continuous(sec.axis=sec_axis(~./450,name="Deaths")) +
+#   labs(color = "Legend") +
+#   scale_color_manual(values = colors)
 
-# subset data to what i need
-subset1 <- data2016 %>%
-  filter(row_number() <= 11, row_number() >= 5)
-  
-subset1$months <- str_replace(subset1$months, " [(].*[)]", "")
 
-# this doesn't work
-##subset1$X <- factor(c("18-24", "25-29", "30-39", "40-49", "50-59", "60-69", ">70"))
-
-chart1 <- ggplot(subset1, aes(x = X, y = months)) +
-  geom_col(color = "blue", fill = "cyan4")+
-  labs(x = "Age Ranges", y = "Percent From Given Blood")
+chart1 <- ggplot(alldata, aes(x = Year)) +
+  geom_bar(aes(y = National.x, fill = "Victims"), stat = "identity", position = "dodge") +
+  geom_bar(aes(y= National.y * 200, fill = "Deaths"), stat = "identity", position = "dodge")+
+  scale_y_continuous(sec.axis=sec_axis(~./200,name= "Deaths"), labs(x = "Victims"))
 
 chart1

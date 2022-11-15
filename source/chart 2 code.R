@@ -4,12 +4,17 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 
-#2: percent of adults from 2001-2021 blood, line graph
+#2: bar graph with percent of children by age
 
-data <- read.csv("../data/All Data.csv")
+agedata <- read.csv("../data/childvictimsage.csv")
 
-chart2 <- ggplot(data, aes(x = Year, y = Yes)) +
-  geom_line() +
-  labs(y = "Percent of Adults Who Gave Blood")
+agedata2 <- agedata %>%
+  filter(row_number() >= 21)
+
+agedata2$Ages <- substr(agedata2$Ages, 1, 2)
+
+chart2 <- ggplot(agedata2, aes(x = Ages, y = National)) +
+  geom_col(fill = "cyan4", col = "black")+
+  labs(y = "Rate per 1000 children")
 
 chart2

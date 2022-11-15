@@ -4,19 +4,22 @@ library(ggplot2)
 library(dplyr)
 library(stringr)
 
-#3: stacked bar chart ethnicity, blood type, percent, for 1 year
+investdata <- read.csv("../data/childinvestigation.csv")
+perpsdata <- read.csv("../data/perps.csv")
 
-data <- read.csv("../data/ethnicity data.csv")
-data2 <- read.csv("../data/2016data.csv")
+chart3data <- merge(investdata, perpsdata, by = "State")
+
+colors <- c("National.x" = "blue", "National.y" = "red")
+
+chart3 <- ggplot(chart3data, aes(x= State, group = 1)) +
+  geom_line(aes(x = State, y = National.x), col = "blue") +
+  geom_line(aes(x = State, y = National.y * 7, col = "red"), col = "red") +
+  scale_y_continuous(sec.axis=sec_axis(~./7,name= "Perpetrators"), labs(y = "Children Investigated"))+
+  labs(col = "legend", x = "Year") 
 
 
-data2sub <- data2 %>%
-  filter(row_number() <= 20, row_number() >= 15)
 
-chart3 <- ggplot(data, aes(fill = Blood.type, x = Ethnicity, y = percent)) + 
-  geom_bar(position = "fill", stat = "identity") +
-  labs(y = "Percent") +
-  scale_fill_discrete(name = "Blood Type")
+  labs(color = "Legend") +
+  scale_color_manual(values = colors)
 
 chart3
-
