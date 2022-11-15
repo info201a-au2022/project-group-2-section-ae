@@ -17,6 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 # Dynamic Paragraph/Summary
 These data sets will allow us to evaluate the extent to which child abuse affects United States residents. Our data was sourced by the U.S. Department of Health & Human Services / ACF. Being a government organization, this department is incredibly reliable for domestic data. The data was also collected in November 2021, meaning it is recent and mostly up to date. By analyzing the statistics, we hope to figure out which states need the most resources in preventing child abuse and increase their health, safety, and well-being. According to our data, the state with the most cases of child abuse was  `r most_state()`. The state with the least number of child abuse cases was `r least_state()`. The year with the most number of child abuse cases was `r most_year()`. The year with the least number of child abuse cases was `r least_year()`. The average number cases per year was `r avg_year()`. With these numbers, we are given a better idea of where government agencies as well as other third party organizations should be focusing or allocating their resources to reduce the average number of reported child abuse cases throughout the United States. 
 
+```{r}
+summary_info
+```
 
 # Summary Table
 

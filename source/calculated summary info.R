@@ -81,3 +81,10 @@ avgcases <- abuseyeartable %>%
 
 return(avgcases)
 }
+
+summary_info <- list()
+summary_info <- append(summary_info, most_state())
+summary_info <- append(summary_info, least_state())
+summary_info <- append(summary_info, most_year())
+summary_info <- append(summary_info, least_year())
+summary_info <- append(summary_info, avg_year())
