@@ -5,7 +5,7 @@ library(stringr)
 library(knitr)
 
 # Get data
-data<- read.csv("totaldata.csv") 
+data<- read.csv("../data/totaldata.csv")
 
 # Get number of cases in each state
 aggregate_data <- data %>%
