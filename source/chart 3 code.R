@@ -9,17 +9,12 @@ perpsdata <- read.csv("../data/perps.csv")
 
 chart3data <- merge(investdata, perpsdata, by = "State")
 
-colors <- c("National.x" = "blue", "National.y" = "red")
-
-chart3 <- ggplot(chart3data, aes(x= State, group = 1)) +
-  geom_line(aes(x = State, y = National.x), col = "blue") +
-  geom_line(aes(x = State, y = National.y * 7, col = "red"), col = "red") +
-  scale_y_continuous(sec.axis=sec_axis(~./7,name= "Perpetrators"), labs(y = "Children Investigated"))+
-  labs(col = "legend", x = "Year") 
-
-
-
-  labs(color = "Legend") +
-  scale_color_manual(values = colors)
-
-chart3
+chart3 <- ggplot(chart3data, aes(x = State, group = 1)) +
+  geom_line(aes(x = State, y = National.x, colour = "National.x"),
+            col = "blue", size = 1.5) +
+  geom_line(aes(x = State, y = National.y * 7, colour = "National.y"),
+            size = 1.5) +
+  scale_y_continuous(sec.axis = sec_axis(~. / 7, name = "Perpetrators"),
+                     labs(y = "Children Investigated")) +
+  scale_color_manual(name = "Legend", values =
+                       c("Children Investigated" = "blue", "Number of Perpetrators" = "darkgrey"))
