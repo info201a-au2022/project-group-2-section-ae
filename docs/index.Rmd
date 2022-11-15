@@ -4,6 +4,7 @@ author: "Sheamin Kim, LinhChi Le, Varsha Venkatesen"
 date: "11/13/2022"
 output: html_document
 ---
+These datasets will allow us to evalute the extent to which child abuse affects United States residents. According to our data, the state with the most cases of child abuse was 'r most_state()'. The state with the least number of child abuse cases was 'r least_state()'. The year with the most number of child abuse cases was 'r most_year()'. The year with the least number of child abuse cases was 'r least_year()'. The average number cases per year was 'r avg_year()'. 
 
 ```{r setup, include=FALSE}
 source("../source/chart 1 code.R")
