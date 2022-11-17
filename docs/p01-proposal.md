@@ -2,9 +2,9 @@
 
 
 ### Code Name
-Twilight
+Protect
 ### Project Title
-Blood Donation Demographics Before and After the COVID-19 Pandemic
+For a Better World: Analysis of Child Abuse Cases and Reports from 2015-2019 in the United States
 ### Authors
 Linh Chi Le, Varsha Venkatesan, Sheamin Kim
 
@@ -14,32 +14,26 @@ INFO- 201: Technical Foundations of Informatics- The Information School - Univer
 ### Date
 Autumn 2022
 ### Abstract
-Our main question is to ask how the COVID-19 pandemic affected blood donation trends in the United States across several demographics. This is important because it can help us address and understand issues regarding accessibility and blood shortages, as well as potential cultural reasons that impact whether a person donates or does not donate blood. To address this question, we will evaluate blood donation trends through thorough statistical analysis and descriptive data visualizations.
+Our main question is to ask what the trends regarding different facets of child abuse across the United States are over time. This question is important to understand how, where, and when child abuse happens, so that we can decrease the instances of these cases. To address this question, we will analyze child abuse statistics and data through statistcal analysis and visualizations.
 ### Keywords
-Blood donations, Demographics, COVID-19 Pandemic
+Child abuse, child victims, child neglect, child welfare
 ### Introduction
-For our project, we will be looking at statistics  in regards to blood donations before and after the COVID-19 pandemic, specifically within the demographics of age, ethnicity, and blood type. We intend to evaluate these trends  to determine what external factors (e.g. religious background,  eligibility, bodily autonomy) affect whether or not a person donates blood and how those factors’  impact has been altered over the time of the pandemic. By looking at these shifts  and creating inferences about what factors played the most crucial role in a person’s decision to donate blood, we will be better equipped to determine more efficient methods of garnering support for blood drives and generally increasing blood donations. With the recent blood supply shortage in the United States, there is an ever growing need for public support in regards to blood donation which we hope to address and provide potential solutions for  in our project.
+For our project we will be looking at different aspects of child abuse, including cases, trials, perpetrators, victim age, and perpetrator relationships to get a better understanding of the existence of child abuse in the United States before COVID-19. We will be analyzing trends across time (5 years, 2015 to 2019) and across states to find correlations and meaningful statistics. By using data visualizations for every facet (and combining facets), we plan to see if there are any serious trends to note. This project also aims to help educate those who are unaware about the trends of child abuse in the United States.
 ### Problem Domain
-Our topic is blood donation and how it relates to various demographics over a serious global event, a pandemic. Blood donation is crucial to human health because of how it saves lives- it is used to treat serious blood loss, anemia, as well as a whole host of other medical conditions (Myers & Collins, 2022). Without blood or plasma donations, many people would have lost their lives. Many people donate blood or receive donated blood.
-There are many stakeholders related to how blood is donated. First and foremost there are those who donate blood. But even within those people, only some are eligible to donate- some requirements include, of good health, of a certain age, of a certain weight, and of a certain height (Eligibility Requirements, 2019). Beyond those are the patients who receive donated blood, whether this is for serious accident victims, surgery patients, and nearly everyone in between. Other stakeholders include everyone else who is in the healthcare system. This includes nurses, doctors, hospital supply chain managers, blood donation center workers, and so many more. While some of these people can be direct stakeholders, most people in the healthcare system are indirect stakeholders.
-There are many benefits of blood donation, first and foremost being that it can save lives. However, there are other benefits as well. Scientists and researchers can use donated blood to further scientific exploration and understanding. However this comes with drawbacks as well. Blood donation can harm stakeholders if the collected blood is not properly screened- if a person is given diseased blood, they might get the disease as well.
-Blood donation is a vital part of our healthcare. The COVID-19 pandemic has affected many healthcare sectors, and for our problem domain we wanted to see if blood donation has also been affected and how. Some research has shown that blood donors feel less morally obligated or responsible for donating blood after the pandemic (Veseli et al., 2022). However, this study took place in Germany, and it is difficult to conclude the same thing for here in the United States. For our project, we want to see if there is any major difference in the demographics of those who donate blood before and after the pandemic, and then contemplate any potential reasons for why that might be the case.
+
 ### Research Questions
-**How does blood donation differ between ethnicity groups?**
+**Which child abuse fatalities are most common?**
 
-By tracking the racial differences in which people give blood, we can better understand whether or not cultural, religious,  or societal values play into whether certain ethnicities do or do not donate blood. We can also see whether systemic racism plays a role in blood donation and brainstorm ways to counter it.
+By understanding which child abuse fatalities are most common, it can help us be more aware of signs of abuse and understand whether or not a child fatality is the result of abuse or neglect.
 
-**Does blood donation increase or decrease because of the pandemic? Why or why not?**
+**How many cases of child abuse result in a trial or other investigative action?**
 
-Many changes in our healthcare system occurred because of the pandemic. We want to see how blood donations are affected and if this will impact hospitals and people who need blood significantly. With more patients than ever because of COVID-19, it is important to track potential shortages and mediate them before they become too serious.
+Not every child abuse case results in investigative action because some reports are false or misleading. We wanted to track what the rate of this was, and to see how the US system handles these reports.
 
-**How does blood donation differ between age groups?**
+**What are the age distribution of child abuse cases and how do causes of abuse differ across ages?**
 
-In many cases the issue lies within eligibility requirements. We also want to evaluate how much of a factor parents or guardians impact play when it comes to allowing minors to donate. That issue is most important and relevant because it relates to bodily autonomy and consent for blood work.
+Children are people from birth to the age of 17, we hypothesize that abuse case trends will be different across different ages. By understanding these trends, we can provide more specialized care for children who are victims of abuse.
 
-**Which blood types are donated most?**
-
-Figuring out which blood types are donated the most can help us learn the popularity between each type. Also, we can figure out   which groups of people  are able to receive the types of blood the most based on the types that are donated the most. By learning this information, we can see which groups of people are at risk of not receiving a blood donation, compared to other groups.
 ### The Dataset
 | Name of Data File | Number of Observations (Rows) | Number of Variables (Columns) | Citation |
 |----|----|----|------|
