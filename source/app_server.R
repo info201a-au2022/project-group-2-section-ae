@@ -7,7 +7,20 @@
 #    http://shiny.rstudio.com/
 #
 
+# Load in libraries
 library(shiny)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+
+# Load in datasets
+df <- read.csv('../data/electoral_college.csv')
+
+
+
+
+
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
