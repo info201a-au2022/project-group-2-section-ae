@@ -37,10 +37,16 @@ Children are people from birth to the age of 17, we hypothesize that abuse case 
 ### The Dataset
 | Name of Data File | Number of Observations (Rows) | Number of Variables (Columns) | Citation |
 |----|----|----|------|
-|Average distribution of blood types in the United States as of 2021| 8| 2| https://www.statista.com/statistics/1112664/blood-type-distribution-us/ |
-|Share of U.S. adults who donated blood in 2021, by gender | 2 | 2| https://www.statista.com/statistics/1203870/share-of-adults-who-gave-blood-us-by-gender/|
-|Distribution of blood types in the United States as of 2021, by ethnicity | 4 | 8| https://www.statista.com/statistics/1203831/blood-type-distribution-us-by-ethnicity/ |
-|Characteristics of the study population| 44| 3| https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6779040/table/T1/?report=objectonly
+|Child Fatalities By Submission Type| 54| 5| https://healthdata.gov/dataset/Child-Fatalities-by-Submission-Type/9c49-3jtk |
+|Child Fatalities Trend | 53 | 6| https://healthdata.gov/dataset/Child-Fatalities-Trend/u7xm-yva2|
+|Child Victims By Age | 54 | 39| https://healthdata.gov/dataset/Child-Victims-by-Age/xn3e-yyaj |
+|Child Victims Trend| 54| 12| https://healthdata.gov/dataset/Child-Victims-Trend/qwij-f3kq |
+|Children by Disposition | 55 | 12| https://healthdata.gov/dataset/Children-by-Disposition/usvm-fdmd |
+|Children Who Received an Investigation or Alternative Response| 54 | 12| https://healthdata.gov/dataset/Children-Who-Received-an-Investigation-or-Alternat/7viv-bzwe|
+|Maltreatment Types of Victims| 54| 21| https://healthdata.gov/dataset/Maltreatment-Types-of-Victims/8bce-qw8w|
+|Perpetrators Trend| 54| 6| https://healthdata.gov/dataset/Perpetrators-Trend/ttus-3dym|
+|Perpetrators by Relationship to their Victims| 55| 14| https://healthdata.gov/dataset/Perpetrators-by-Relationship-to-Their-Victims/tw7x-jbvq|
+|Screened In and Screened Out Referrals | 56| 7| https://healthdata.gov/dataset/Screened-in-and-Screened-out-Referrals/k5kg-jgj9|
 
 The Average distribution of blood types in the United States as of 2021 Chart from Statista will help us visualize and answer the research question regarding blood donations by blood type. The survey was conducted by the American Red  Cross and published by ZME Science in January of 2021. The data was collected via surveys and polls sent out by the Red Cross and their secondary sources. The data is valid as the Red Cross is an incredibly reputable organization when it comes to humanitarian relief and blood donations in general.
 
