@@ -34,41 +34,49 @@ other <- read.csv('../data/totaldata.csv')
 
 # chart 1: shiny input: state, ages bar chart, childvistimsage
 
-# WORK ON BAR ORDER
-
 agesdf1 <- ages[-c(1: 20),]
 
-# rownames(agesdf1) <- c("<1", "1", "2", "3", "4", "5", "6", "7",
-#                        "8", "9", "10", "11", "12", "13", "14", "15", "16",
-#                        "17")
-
 agesdf1$Ages <- str_replace(agesdf1$Ages, " Rate per 1,000 Children", "")
+
 agesdf1$Ages <- factor(agesdf1$Ages) 
 
-
-# agesdf1 <- agesdf1 %>%
-#   mutate(Ages = fct_relevel(Ages, 
-#                             "<1", "1", "2", "3", "4", "5", "6", "7",
-#                             "8", "9", "10", "11", "12", "13", "14", "15", "16",
-#                             "17"))
-
-
-# chart1fn <- function(data) {
-#   
-# chart1 <- ggplot(data, aes(x = reorder(Ages, sort(as.numeric(Ages))), y = input$state)) +
-#     geom_col()
-# 
-# return(chart1)
-# } 
+agesdf1 <- agesdf1 %>%
+  pivot_longer(cols = c("Alabama",	"Alaska",	"Arizona", "Arkansas",
+                        "California",	"Colorado",	"Connecticut",
+                        "Delaware",	"District.of.Columbia",	"Florida",	
+                        "Georgia",	"Hawaii",	"Idaho",	"Illinois",	
+                        "Indiana",	"Iowa",	"Kansas",	"Kentucky",	
+                        "Louisiana",	"Maine",	"Maryland",	"Massachusetts",
+                        "Michigan",	"Minnesota",	"Mississippi",	
+                        "Missouri",	"Montana",	"Nebraska",	"Nevada",	
+                        "New.Hampshire",	"New.Jersey",	"New.Mexico",	
+                        "New.York",	"North.Carolina",	"North.Dakota",	
+                        "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",	
+                        "Puerto.Rico",	"Rhode.Island",	"South.Carolina",	
+                        "South.Dakota",	"Tennessee",	"Texas",	"Utah",	
+                        "Vermont",	"Virginia",	"Washington",	
+                        "West.Virginia",	"Wisconsin",	"Wyoming",	"National"), 
+               names_to = "state", values_to = "rate")
 
 
 my_server <- function(input, output){ 
   
+  choose_state <- reactive({agesdf1 %>% 
+      filter(state == input$state)
+  })
+  
+  positions <- c("<1", "1 ", "2 ", "3 ", "4 ", "5 ",
+                 "6 ", "7 ", "8 ", "9 ", "10",
+                 "11", "12", "13", "14", "15",
+                 "16", "17")
+  
   output$plot <- renderPlot({
-    
-    ggplot(agesdf1, aes(x = Ages, y = input$state)) +
-      geom_col(stat = "identity")+
+
+    ggplot(choose_state()) +
+      geom_col(aes(x = Ages, y = rate, fill = state), position = "dodge")+
+      scale_x_discrete(limits = positions) +
       theme(axis.text.x = element_text(angle = 60, hjust = 1))
+    
     
   })
 
@@ -99,7 +107,6 @@ my_server <- function(input, output){
 
 
 
-# data <- switch(input$ages, 
-#                "Alabama" = ages$Alabama,
-#                "Alaska" = ages$Alaska,
-#                "Arizona" = ages$Arizona)
+# rownames(agesdf1) <- c("<1", "1", "2", "3", "4", "5", "6", "7",
+#                        "8", "9", "10", "11", "12", "13", "14", "15", "16",
+#                        "17")

@@ -14,17 +14,20 @@ page_ui <- fluidPage(
   
   # Application title
   
-  titlePanel("Title"),
+  tabPanel(title = "Title",
+           titlePanel("Title2"),
   
-  # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
-      # Select Box for user to choose a color for the bins
+
+      
       selectInput(
         inputId = "state",
-        label = "Choose a state:",
-        choices = c("Alabama", "Alaska", "Arizona")
+        label = "state",
+        choices = agesdf1$state,
+        multiple = FALSE
       )
+
       
     ),
     # Show a plot of the generated distribution
@@ -32,8 +35,8 @@ page_ui <- fluidPage(
     mainPanel(
       
       textOutput("testvar"),
-      
       plotOutput("plot")
     )
   )
-)
+  ))
+
