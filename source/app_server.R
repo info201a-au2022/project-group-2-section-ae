@@ -78,6 +78,7 @@ deathsdf1 <- deaths %>%
                         "West.Virginia",	"Wisconsin",	"Wyoming",	"National"), 
                names_to = "state", values_to = "num")
 
+  
 maltreatmentdf1 <- maltreatment[-c(10: 20),]
 
 maltreatmentdf1$Type <- str_replace(maltreatmentdf1$Type, " Only", "")
