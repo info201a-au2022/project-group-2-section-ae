@@ -12,11 +12,16 @@ library(shiny)
 # Define UI for application that draws a histogram
 page_ui <- fluidPage(
   
-  # Application title
-  
-  tabPanel(title = "Title",
-           titlePanel("Title2"),
-  
+  intro_page <- tabPanel(
+    "Introduction", 
+    titlePanel("Introduction"),
+),
+)
+
+  chart_1 <- tabPanel(
+      "Chart 1", 
+      titlePanel("Insert Name"),
+      
   sidebarLayout(
     sidebarPanel(
 
@@ -26,7 +31,7 @@ page_ui <- fluidPage(
         label = "state",
         choices = agesdf1$state,
         multiple = FALSE
-      )
+      ),
 
       
     ),
@@ -35,8 +40,35 @@ page_ui <- fluidPage(
     mainPanel(
       
       textOutput("testvar"),
-      plotOutput("plot")
+      plotOutput("plot"),
     )
   )
-  ))
+)
+  chart_2 <- tabPanel(
+    "Chart 2", 
+    titlePanel("Chart 2")
+  )
+  chart_3 <- tabPanel(
+    "Chart 3",
+    titlePanel("Chart 3")
+  )
+  summary_page <- tabPanel(
+    "Summary",
+    titlePanel("Summary Takeaways")
+  )
+  report_page <- tabPanel(
+    "Report",
+    titlePanel("Report Page")
+  )
+  
+page_ui <- navbarPage(
+  theme = shinytheme("yeti"),
+  "Analysis of Child Abuse",
+  intro_page,
+  chart_1,
+  chart_2,
+  chart_3,
+  summary_page,
+  report_page
+)
 

@@ -15,3 +15,6 @@ aggregate_data <- data %>%
 
 # Remove a row
 total_table <- aggregate_data[-c(5), ]
+
+install.packages("shiny")
+load(shiny)
