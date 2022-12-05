@@ -25,13 +25,14 @@ page_ui <- fluidPage(
       differences that create a safer environment in certain areas in 
       comparison to others. Youth of all ages deserve a safe, nurturing 
       environment to grow up in, something we hope to make more accessible by 
-      raising awareness and educating the public on the issue."),
+      raising awareness and educating the public on the issue.")
+      ),
     mainPanel(
         img("", 
-      src = "PAL-Child-Abuse-Neglect-1.jpeg", height = "400px", width = "700px")
+      src = "PAL-Child-Abuse-Neglect-1.jpeg", height = "500px", width = "800px",
+      style= "position:absolute; left:100px;")
       
 ),
-)
 )
 )
 
