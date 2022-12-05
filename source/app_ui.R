@@ -57,13 +57,14 @@ chart_1 <- tabPanel(
       
       textOutput("testvar"),
       plotlyOutput("plot"),
-    )
-  ),
+    
+
 
   p("The chart that is displayed shows the frequency of victims of child abuse 
     sorted by their age. By choosing a state, users can see how the frequency 
     increases or decreases depending on the child's age."),
- 
+  )
+  )
 )
 
 
@@ -83,13 +84,15 @@ chart_1 <- tabPanel(
                     ),
 ),
         mainPanel(
-          plotlyOutput("graph")
-        ) 
+          plotlyOutput("graph"),
+        
                 
-      ),
+  
   p("The bar graph showcases the number of deaths that resulted from cases of 
     child abuse. It compares two states in the U.S to show which state has more 
     or less deaths as the years go by.")
+        )
+)
 )
       
 
@@ -109,15 +112,15 @@ chart_1 <- tabPanel(
     
       ),
       mainPanel(
-        plotlyOutput("graph1")
-      ) 
+        plotlyOutput("graph1"),
       
-    ),
+      
+    
     p("The chart has shows the number of cases and the different forms of child 
       abuse in each state. Using this information, one can see the form that is 
       the most common in the states.")
-    
-    
+    )
+    )
   )
   summary_page <- tabPanel(
     "Summary",
