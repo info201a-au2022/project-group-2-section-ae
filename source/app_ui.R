@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(shinythemes)
 
 # Define UI for application that draws a histogram
 page_ui <- fluidPage(
@@ -18,13 +19,12 @@ page_ui <- fluidPage(
 ),
 )
 
-  chart_1 <- tabPanel(
-      "Chart 1", 
-      titlePanel("Insert Name"),
-      
+chart_1 <- tabPanel(
+  "Chart 1", 
+  titlePanel("Insert Name"),
+  
   sidebarLayout(
     sidebarPanel(
-
       
       selectInput(
         inputId = "state",
@@ -32,11 +32,10 @@ page_ui <- fluidPage(
         choices = agesdf1$state,
         multiple = FALSE
       ),
-
+      
       
     ),
-    # Show a plot of the generated distribution
-    
+
     mainPanel(
       
       textOutput("testvar"),
@@ -44,13 +43,53 @@ page_ui <- fluidPage(
     )
   )
 )
+
+
   chart_2 <- tabPanel(
     "Chart 2", 
-    titlePanel("Chart 2")
-  )
+    titlePanel("Chart 2"),
+  
+  
+    sidebarLayout(
+      sidebarPanel(
+        
+        selectInput(inputId = "state1", label = "State1",
+                    choices = deathsdf1$state, multiple = FALSE
+                    ),
+        selectInput(inputId = "state2", label = "State2",
+                    choices = deathsdf1$state, multiple = FALSE
+                    ),
+),
+        mainPanel(
+          plotOutput("graph")
+        ) 
+                
+      )
+)
+      
+
+
+
   chart_3 <- tabPanel(
     "Chart 3",
-    titlePanel("Chart 3")
+    titlePanel("Chart 3"),
+    
+    
+    sidebarLayout(
+      sidebarPanel(
+        
+        selectInput(inputId = "state01", label = "State1",
+                    choices = maltreatmentdf1$state, multiple = FALSE
+        ),
+    
+      ),
+      mainPanel(
+        plotOutput("graph1")
+      ) 
+      
+    )
+    
+    
   )
   summary_page <- tabPanel(
     "Summary",
@@ -60,7 +99,7 @@ page_ui <- fluidPage(
     "Report",
     titlePanel("Report Page")
   )
-  
+
 page_ui <- navbarPage(
   theme = shinytheme("yeti"),
   "Analysis of Child Abuse",
@@ -71,4 +110,4 @@ page_ui <- navbarPage(
   summary_page,
   report_page
 )
-
+  
