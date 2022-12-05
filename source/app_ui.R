@@ -24,7 +24,13 @@ page_ui <- fluidPage(
       differences that create a safer environment in certain areas in 
       comparison to others. Youth of all ages deserve a safe, nurturing 
       environment to grow up in, something we hope to make more accessible by 
-      raising awareness and educating the public on the issue.")
+      raising awareness and educating the public on the issue."),
+      sidebarPanel(
+
+            img("neglection picture", 
+                src = "~/Documents/info201/project-group-2-section-ae/PAL-Child-Abuse-Neglect-1.jpeg")
+            
+      )
 ),
 )
 
@@ -51,9 +57,11 @@ chart_1 <- tabPanel(
       plotlyOutput("plot"),
     )
   ),
+
   p("The chart that is displayed shows the frequency of victims of child abuse 
     sorted by their age. By choosing a state, users can see how the frequency 
-    increases or decreases depending on the child's age.")
+    increases or decreases depending on the child's age."),
+ 
 )
 
 
