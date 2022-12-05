@@ -113,7 +113,7 @@ my_server <- function(input, output){
                  "11", "12", "13", "14", "15",
                  "16", "17")
   
-  output$plot <- renderPlot({
+  output$plot <- renderPlotly({
 
     ggplot(choose_state()) +
       geom_col(aes(x = Ages, y = rate, fill = state), position = "dodge")+
@@ -128,7 +128,7 @@ my_server <- function(input, output){
       filter(state == input$state1 | state == input$state2)
   })
   
-  output$graph <- renderPlot({
+  output$graph <- renderPlotly({
     
     ggplot(chosen_states()) +
       geom_col(aes(x = Year, y = num, fill = state), position = "dodge")
@@ -139,7 +139,7 @@ my_server <- function(input, output){
       filter(state == input$state01)
   })
   
-  output$graph1 <- renderPlot({
+  output$graph1 <- renderPlotly({
     
     ggplot(chosen_states1()) +
       geom_col(aes(x = Type, y = number, fill = state), position = "dodge")+

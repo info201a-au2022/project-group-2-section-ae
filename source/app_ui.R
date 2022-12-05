@@ -48,7 +48,7 @@ chart_1 <- tabPanel(
     mainPanel(
       
       textOutput("testvar"),
-      plotOutput("plot"),
+      plotlyOutput("plot"),
     )
   ),
   p("The chart that is displayed shows the frequency of victims of child abuse 
@@ -73,7 +73,7 @@ chart_1 <- tabPanel(
                     ),
 ),
         mainPanel(
-          plotOutput("graph")
+          plotlyOutput("graph")
         ) 
                 
       ),
@@ -99,7 +99,7 @@ chart_1 <- tabPanel(
     
       ),
       mainPanel(
-        plotOutput("graph1")
+        plotlyOutput("graph1")
       ) 
       
     ),
