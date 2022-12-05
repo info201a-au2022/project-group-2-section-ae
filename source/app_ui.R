@@ -16,6 +16,7 @@ page_ui <- fluidPage(
   intro_page <- tabPanel(
     "Introduction", 
     titlePanel("Introduction"),
+      sidebarPanel(
     p("Through our project, we intend to analyze data surrounding the issue of 
       child abuse in order to better understand what policies and regulations 
       should be implemented in order to support youth in the United States. 
@@ -25,13 +26,13 @@ page_ui <- fluidPage(
       comparison to others. Youth of all ages deserve a safe, nurturing 
       environment to grow up in, something we hope to make more accessible by 
       raising awareness and educating the public on the issue."),
-      sidebarPanel(
-
-            img("neglection picture", 
-                src = "~/Documents/info201/project-group-2-section-ae/PAL-Child-Abuse-Neglect-1.jpeg")
-            
-      )
+    mainPanel(
+        img("", 
+      src = "PAL-Child-Abuse-Neglect-1.jpeg", height = "400px", width = "700px")
+      
 ),
+)
+)
 )
 
 chart_1 <- tabPanel(
