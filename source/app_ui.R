@@ -190,8 +190,11 @@ chart_1 <- tabPanel(
     h4("Discussion"),
     h4("Conclusion"),
     h4("Acknowledgements"),
+    p("Special thanks to our teaching assistant Annie Tu for her help and 
+      guidance throughout the making of this project."),
     h4("References"),
-    h4("Appendix A: Questions")
+    h4("Appendix A: Questions"),
+    p("None"),
     
 )
   
