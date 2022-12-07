@@ -14,8 +14,21 @@ library(ggplot2)
 library(plotly)
 library(shinythemes)
 
-
-
+statenames <- c("Alabama",	"Alaska",	"Arizona", "Arkansas",
+            "California",	"Colorado",	"Connecticut",
+            "Delaware",	"District.of.Columbia",	"Florida",	
+            "Georgia",	"Hawaii",	"Idaho",	"Illinois",	
+            "Indiana",	"Iowa",	"Kansas",	"Kentucky",	
+            "Louisiana",	"Maine",	"Maryland",	"Massachusetts",
+            "Michigan",	"Minnesota",	"Mississippi",	
+            "Missouri",	"Montana",	"Nebraska",	"Nevada",	
+            "New.Hampshire",	"New.Jersey",	"New.Mexico",	
+            "New.York",	"North.Carolina",	"North.Dakota",	
+            "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",	
+            "Puerto.Rico",	"Rhode.Island",	"South.Carolina",	
+            "South.Dakota",	"Tennessee",	"Texas",	"Utah",	
+            "Vermont",	"Virginia",	"Washington",	
+            "West.Virginia",	"Wisconsin",	"Wyoming",	"National")
 
 # Define UI for application that draws a histogram
 page_ui <- fluidPage(
@@ -54,7 +67,21 @@ chart_1 <- tabPanel(
       selectInput(
         inputId = "state",
         label = "state",
-        choices = agesdf1$state,
+        choices = c("Alabama",	"Alaska",	"Arizona", "Arkansas",
+                    "California",	"Colorado",	"Connecticut",
+                    "Delaware",	"District.of.Columbia",	"Florida",	
+                    "Georgia",	"Hawaii",	"Idaho",	"Illinois",	
+                    "Indiana",	"Iowa",	"Kansas",	"Kentucky",	
+                    "Louisiana",	"Maine",	"Maryland",	"Massachusetts",
+                    "Michigan",	"Minnesota",	"Mississippi",	
+                    "Missouri",	"Montana",	"Nebraska",	"Nevada",	
+                    "New.Hampshire",	"New.Jersey",	"New.Mexico",	
+                    "New.York",	"North.Carolina",	"North.Dakota",	
+                    "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",	
+                    "Puerto.Rico",	"Rhode.Island",	"South.Carolina",	
+                    "South.Dakota",	"Tennessee",	"Texas",	"Utah",	
+                    "Vermont",	"Virginia",	"Washington",	
+                    "West.Virginia",	"Wisconsin",	"Wyoming",	"National"),
         multiple = FALSE
       ),
       
@@ -86,10 +113,10 @@ chart_1 <- tabPanel(
       sidebarPanel(
         
         selectInput(inputId = "state1", label = "State1",
-                    choices = deathsdf1$state, multiple = FALSE
+                    choices = statenames, multiple = FALSE
                     ),
         selectInput(inputId = "state2", label = "State2",
-                    choices = deathsdf1$state, multiple = FALSE
+                    choices = statenames, multiple = FALSE
                     ),
 ),
         mainPanel(
@@ -115,7 +142,7 @@ chart_1 <- tabPanel(
       sidebarPanel(
         
         selectInput(inputId = "state01", label = "State1",
-                    choices = maltreatmentdf1$state, multiple = FALSE
+                    choices = statenames, multiple = FALSE
         ),
     
       ),
