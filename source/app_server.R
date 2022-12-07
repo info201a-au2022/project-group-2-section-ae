@@ -13,7 +13,7 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2)
 library(plotly)
-library(usmap)
+library(shinythemes)
 
 # Load in datasets
 ages <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/childvictimsage.csv")
