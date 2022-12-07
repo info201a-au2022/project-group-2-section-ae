@@ -159,33 +159,33 @@ my_server <- function(input, output){
 
 
 
-  mapdf <- other %>%
-    filter(year_ == "2015", keep.all = TRUE) %>%
-    group_by(state) %>%
-    summarize(values = length(which(gender == "F")), na.rm = TRUE)
+ #mapdf <- other %>%
+   # filter(year_ == "2015", keep.all = TRUE) %>%
+   # group_by(state) %>%
+   # summarize(values = length(which(gender == "F")), na.rm = TRUE)
 
 
 # This is a plotting function that returns a map that demonstrates how high
 # the black jail population is through a gradient of beige to dark blue.
 
-  map1 <- plot_usmap(
-    regions = c("state"),
-    data = data.frame(mapdf)) +
-    include = c("AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DE",
-                "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KY",
-                "LA", "MA", "MD", "ME", "MI", "MN", "MS", "NC",
-                "NE", "NH", "NJ", "OH", "OR", "PA", "RI", "SC",
-                "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV")+
-    scale_fill_continuous(
-      low = "beige",
-      high = "darkslateblue",
-      name = "Female",
-      label = scales::comma,
-      ) +
-    labs(subtitle = "Here is a subtitle",
-         caption = "Here is a caption")
+ # map1 <- plot_usmap(
+  #  regions = c("state"),
+   # data = data.frame(mapdf)) +
+   # include = c("AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DE",
+               # "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KY",
+               # "LA", "MA", "MD", "ME", "MI", "MN", "MS", "NC",
+               # "NE", "NH", "NJ", "OH", "OR", "PA", "RI", "SC",
+               # "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV")+
+   # scale_fill_continuous(
+   #   low = "beige",
+    #  high = "darkslateblue",
+    #  name = "Female",
+    #  label = scales::comma,
+    #  ) +
+   # labs(subtitle = "Here is a subtitle",
+    #     caption = "Here is a caption")
 
-map1
+#map1
 
 
 

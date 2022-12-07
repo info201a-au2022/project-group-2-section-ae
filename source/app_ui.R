@@ -158,8 +158,43 @@ chart_1 <- tabPanel(
   )
   report_page <- tabPanel(
     "Report",
-    titlePanel("Report Page")
-  )
+    titlePanel("Report Page"),
+    h4("Code Name"),
+    p("Protect"),
+    h4("Project Title"),
+    p("For a Better World: Analysis of Child Abuse Cases and Reports from 
+    2015-2019 in the United States"),
+    h4("Authors"),
+    p("Linh Chi Le, Varsha Venkatesan, Sheamin Kim"),
+    p("linhchil@uw.edu, vvenk@uw.edu, sheakim2@uw.edu"),
+    h4("Affiliation"),
+    p("INFO- 201: Technical Foundations of Informatics- The Information School
+      - University of Washington"),
+    h4("Date"),
+    p("Autumn 2022"),
+    h4("Abstract"),
+    p("Our main question is to ask what the trends regarding different facets 
+    of child abuse across the United States are over time. This question is 
+    important to understand how, where, and when child abuse happens, so that 
+    we can decrease the instances of these cases. To address this question, we 
+    will analyze child abuse statistics and data through statistcal analysis 
+    and visualizations."),
+    h4("Problem Domain"),
+    p("PUT SOMETHING HERE"),
+    h4("Research Questions"),
+    p("INSERT QUESTIONS AND STUFF"),
+    h4("The Dataset"),
+    h4("Expected Implications"),
+    h4("Limitations"),
+    h4("Findings"),
+    h4("Discussion"),
+    h4("Conclusion"),
+    h4("Acknowledgements"),
+    h4("References"),
+    h4("Appendix A: Questions")
+    
+)
+  
 
 page_ui <- navbarPage(
   theme = shinytheme("yeti"),
