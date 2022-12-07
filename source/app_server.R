@@ -29,10 +29,6 @@ referrals <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project
 other <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/totaldata.csv")
 
 
-# PAGE 1 VALUES
-
-
-# PAGE 2 CHARTS
 
 # chart 1: shiny input: state, ages bar chart, childvistimsage
 

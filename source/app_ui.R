@@ -36,7 +36,8 @@ page_ui <- fluidPage(
       ),
    mainPanel(
         img("", 
-      src = "PAL-Child-Abuse-Neglect-1.jpeg", height = "500px", width = "800px",
+      src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpal.ua.edu%2F2017%2F08%2F18%2Fchild-abuse-neglect%2F&psig=AOvVaw0s_xAKCsZo8Xyi4Wqr_SxN&ust=1670522153878000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJiguI6K6PsCFQAAAAAdAAAAABAE", 
+      height = "500px", width = "800px",
       style= "position:absolute; left:100px;")
       
 ),
