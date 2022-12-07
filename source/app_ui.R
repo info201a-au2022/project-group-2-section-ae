@@ -146,7 +146,15 @@ chart_1 <- tabPanel(
       trafficking seems to be a lot lower compared to the other forms, which 
       was surprising. These findings are significant because people may think 
       of physical and sexual violence when the topic of child abuse, rather 
-      than neglection.")
+      than neglection."),
+    h4("Conclusion"),
+    p("After researching, looking, and working with data about child abuse, 
+      we have learned quite a lot in regards of where cases of child abuse 
+      happen the most, the different types of abuse, and age groups that 
+      experience it the most. The information that we found would be useful for 
+      policymakers and other officials to figure out which demographics are more 
+      at risk to child abuse. Violence is never the answer, and we hope that 
+      everyone is more aware and informed so that this issue gets resolved.")
   )
   report_page <- tabPanel(
     "Report",
