@@ -34,7 +34,7 @@ page_ui <- fluidPage(
       environment to grow up in, something we hope to make more accessible by 
       raising awareness and educating the public on the issue.")
       ),
-    mainPanel(
+   mainPanel(
         img("", 
       src = "PAL-Child-Abuse-Neglect-1.jpeg", height = "500px", width = "800px",
       style= "position:absolute; left:100px;")

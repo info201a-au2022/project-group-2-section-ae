@@ -5,10 +5,10 @@ account: linhchile
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7835295
-bundleId: 6603860
+bundleId: 6603919
 url: https://linhchile.shinyapps.io/source/
-when: 1670405817.30092
-lastSyncTime: 1670405817.30094
+when: 1670406815.56477
+lastSyncTime: 1670406815.56478
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: calculated summary info.R|chart 1 code.R|chart 1.png|chart 2 code.R|chart 2.png|chart 3 code.R|chart 3.png|data_access.R|README.md|table of summary info.R
+ignoredFiles: calculated summary info.R|chart 1 code.R|chart 1.png|chart 2 code.R|chart 2.png|chart 3 code.R|chart 3.png|data_access.R|README.md|table of summary info.R|WWW/.DS_Store|WWW/PAL-Child-Abuse-Neglect-1.jpeg
