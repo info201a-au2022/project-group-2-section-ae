@@ -16,17 +16,17 @@ library(plotly)
 library(usmap)
 
 # Load in datasets
-ages <- read.csv('../data/childvictimsage.csv')
-victims <- read.csv('../data/childvictimstrend.csv')
-deaths <- read.csv('../data/deathsdata.csv')
-investigation <- read.csv('../data/childinvestigation.csv')
-disposition <- read.csv('../data/Children_by_Disposition.csv')
-response <- read.csv('../data/Children_Who_Received_an_Investigation_or_Alternative_Response.csv')
-maltreatment <- read.csv('../data/maltreatmenttypes.csv')
-perp_relation <- read.csv('../data/Perpetrators_by_Relationship_to_Their_Victims.csv')
-perp_trend <- read.csv('../data/perps.csv')
-referrals <- read.csv('../data/Screened-in_and_Screened-out_Referrals.csv')
-other <- read.csv('../data/totaldata.csv')
+ages <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/childvictimsage.csv")
+victims <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/childvictimstrend.csv")
+deaths <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/deathsdata.csv")
+investigation <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/childinvestigation.csv")
+disposition <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/Children_by_Disposition.csv")
+response <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/Children_Who_Received_an_Investigation_or_Alternative_Response.csv")
+maltreatment <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/maltreatmenttypes.csv")
+perp_relation <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/Perpetrators_by_Relationship_to_Their_Victims.csv")
+perp_trend <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/perps.csv")
+referrals <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/Screened-in_and_Screened-out_Referrals.csv")
+other <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-2-section-ae/main/data/totaldata.csv")
 
 
 # PAGE 1 VALUES
