@@ -62,7 +62,8 @@ chart_1 <- tabPanel(
 
   p("The chart that is displayed shows the frequency of victims of child abuse 
     sorted by their age. By choosing a state, users can see how the frequency 
-    increases or decreases depending on the child's age."),
+    increases or decreases depending on the child's age. It can help users 
+    figure out which age is more likely to experience child abuse."),
   )
 )
 )
@@ -87,9 +88,10 @@ chart_1 <- tabPanel(
           plotlyOutput("graph"),
                 
 
-  p("The bar graph showcases the number of deaths that resulted from cases of 
+  p("The chart showcases the number of deaths that resulted from cases of 
     child abuse. It compares two states in the U.S to show which state has more 
-    or less deaths as the years go by."),
+    or less deaths as the years go by. Users would be able to figure out the 
+    state that have more cases of deaths than other states."),
 )
 )
   )   
@@ -112,9 +114,9 @@ chart_1 <- tabPanel(
       mainPanel(
         plotlyOutput("graph1"),
 
-    p("The chart has shows the number of cases and the different forms of child 
-      abuse in each state. Using this information, one can see the form that is 
-      the most common in the states."),
+    p("The chart has shows the number of cases of child abuse and the different 
+    forms of child abuse in each state. Using this information, one can see the 
+    form that is the most common in the states."),
     )
     )
   )
@@ -144,7 +146,15 @@ chart_1 <- tabPanel(
       trafficking seems to be a lot lower compared to the other forms, which 
       was surprising. These findings are significant because people may think 
       of physical and sexual violence when the topic of child abuse, rather 
-      than neglection.")
+      than neglection."),
+    h4("Conclusion"),
+    p("After researching, looking, and working with data about child abuse, 
+      we have learned quite a lot in regards of where cases of child abuse 
+      happen the most, the different types of abuse, and age groups that 
+      experience it the most. The information that we found would be useful for 
+      policymakers and other officials to figure out which demographics are more 
+      at risk to child abuse. Violence is never the answer, and we hope that 
+      everyone is more aware and informed so that this issue gets resolved.")
   )
   report_page <- tabPanel(
     "Report",
