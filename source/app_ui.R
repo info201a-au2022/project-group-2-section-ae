@@ -295,7 +295,7 @@ chart_1 <- tabPanel(
     p("A possible implication that technologists, designers, and policymakers
     have is that they could do further research on other factors of child
     abuse. Designers could inform the public and raise awareness to this topic
-    by creating and designer infographics with information and statistics on
+    by creating and designing infographics with information and statistics on
     child abuse. This could potentially help others be aware of the signs of
     child abuse. Adding on, policymakers could also promote the importance of
     being on the lookout for children who could be experiencing abuse. They
