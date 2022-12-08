@@ -88,25 +88,31 @@ Special thanks to our teaching assistant Annie Tu for her help and guidance thro
 ### References
 Avdibegovic, E., & Brkic, M. (2020). Child Neglect - Causes and 
       Consequences. Psychiatria Danubina, 32(Suppl 3), 337-342.
+      
 CDC. (2021). Preventing Child Abuse & Neglect. Centers for Disease Control 
   and Prevention. 
   https://www.cdc.gov/violenceprevention/childabuseandneglect/fastfact.html
 
 Child Fatalities Trend | HealthData.gov. (n.d.). Healthdata.gov. 
   https://healthdata.gov/dataset/Child-Fatalities-Trend/u7xm-yva2
+  
 Child Victims by Age | HealthData.gov. (n.d.). Healthdata.gov. 
   https://healthdata.gov/dataset/Child-Victims-by-Age/xn3e-yyaj
+  
 Dubowitz, H. (2013). Neglect in Children. Pediatric Annals, 42(4),
   73-77. https://doi.org/10.3928/00904481-20130326-11
+  
 Healthy Children. (2019). Child Abuse and Neglect. HealthyChildren.org. 
   https://www.healthychildren.org/English/safety-prevention/at-home/Pages/
   What-to-Know-about-Child-Abuse.aspx???
+  
 Maltreatment Types of Victims | HealthData.gov. (n.d.). Healthdata.gov. 
   Retrieved December 8, 2022, from 
   https://healthdata.gov/dataset/Maltreatment-Types-of-Victims/8bce-qw8w
+  
 Mayo Clinic. (2022, May 19). Child abuse - Symptoms and causes. Mayo Clinic. 
-  https://www.mayoclinic.org/diseases-conditions/child-abuse/
-  symptoms-causes/syc-20370864
+  https://www.mayoclinic.org/diseases-conditions/child-abuse/symptoms-causes/syc-20370864
+  
 Who abuses children? | Australian Institute of Family Studies. (n.d.). 
   Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/
   |who-abuses-children
