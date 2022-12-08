@@ -114,8 +114,7 @@ Mayo Clinic. (2022, May 19). Child abuse - Symptoms and causes. Mayo Clinic.
   https://www.mayoclinic.org/diseases-conditions/child-abuse/symptoms-causes/syc-20370864
   
 Who abuses children? | Australian Institute of Family Studies. (n.d.). 
-  Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/
-  |who-abuses-children
+  Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/who-abuses-children
 
 ### Appendix A: Questions
 None at this time.
