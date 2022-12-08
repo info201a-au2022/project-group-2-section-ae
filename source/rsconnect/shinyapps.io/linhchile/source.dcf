@@ -5,10 +5,10 @@ account: linhchile
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7835295
-bundleId: 6609877
+bundleId: 6612201
 url: https://linhchile.shinyapps.io/source/
-when: 1670495126.52743
-lastSyncTime: 1670495126.52748
+when: 1670531789.37683
+lastSyncTime: 1670531789.37684
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: calculated summary info.R|chart 1 code.R|chart 1.png|chart 2 code.R|chart 2.png|chart 3 code.R|chart 3.png|data_access.R|README.md|table of summary info.R
