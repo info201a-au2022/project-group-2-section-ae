@@ -7,6 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
+# libraries
 library(shiny)
 library(dplyr)
 library(tidyverse)
@@ -14,36 +15,40 @@ library(ggplot2)
 library(plotly)
 library(shinythemes)
 
+# vector used for choices in later charts
 statenames <- c("Alabama",	"Alaska",	"Arizona", "Arkansas",
             "California",	"Colorado",	"Connecticut",
-            "Delaware",	"District.of.Columbia",	"Florida",	
-            "Georgia",	"Hawaii",	"Idaho",	"Illinois",	
-            "Indiana",	"Iowa",	"Kansas",	"Kentucky",	
+            "Delaware",	"District.of.Columbia",	"Florida",
+            "Georgia",	"Hawaii",	"Idaho",	"Illinois",
+            "Indiana",	"Iowa",	"Kansas",	"Kentucky",
             "Louisiana",	"Maine",	"Maryland",	"Massachusetts",
-            "Michigan",	"Minnesota",	"Mississippi",	
-            "Missouri",	"Montana",	"Nebraska",	"Nevada",	
-            "New.Hampshire",	"New.Jersey",	"New.Mexico",	
-            "New.York",	"North.Carolina",	"North.Dakota",	
-            "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",	
-            "Puerto.Rico",	"Rhode.Island",	"South.Carolina",	
-            "South.Dakota",	"Tennessee",	"Texas",	"Utah",	
-            "Vermont",	"Virginia",	"Washington",	
-            "West.Virginia",	"Wisconsin",	"Wyoming",	"National")
+            "Michigan",	"Minnesota",	"Mississippi",
+            "Missouri",	"Montana",	"Nebraska",	"Nevada",
+            "New.Hampshire",	"New.Jersey",	"New.Mexico",
+            "New.York",	"North.Carolina",	"North.Dakota",
+            "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",
+            "Puerto.Rico",	"Rhode.Island",	"South.Carolina",
+            "South.Dakota",	"Tennessee",	"Texas", "Utah",
+            "Vermont",	"Virginia",	"Washington",
+            "West.Virginia",	"Wisconsin",	"Wyoming", "National")
 
 # Define UI for application that draws a histogram
 page_ui <- fluidPage(
-  
+
   intro_page <- tabPanel(
     "Introduction", 
     titlePanel("Introduction"),
-    
+
+# Creates image on introduction page
    mainPanel(
-        img("", 
+        img("",
       src = "https://pal.ua.edu/wp-content/uploads/2017/08/PAL-Child-Abuse-Neglect-1.jpg", 
       height = "350px", width = "600px",
       style= "position:absolute; left:100px; margin-top: 450px;"),
-      
-      p("Child abuse, while an uncomfortable topic, is something that needs to be
+
+# introduction text
+      p("Child abuse, while an uncomfortable topic,
+    is something that needs to be
     addressed within the United States. Many children are impacted by societal 
     barriers such as racism and sexism, which may be deemed inevitable due to 
     their identity. However, coming home to a safe, loving family is something
@@ -51,13 +56,15 @@ page_ui <- fluidPage(
     data surrounding the issue of child abuse in order to better understand
     what policies and regulations should be implemented in order to support
     youth in the United States."),
-      p("By asking the research questions:"), 
+      p("By asking the research questions:"),
       p("What type of child abuse is the most common?"),
-      p("What areas in the United States have the most deaths from child abuse?"),
+      p("What areas in the United States have the most 
+        deaths from child abuse?"),
       p("What is the age distribution of child abuse cases?"),
       p("We seek to find where research into preventative measures should
-      begin."), 
-      p("The data set we analyzed contained various cases of child abuse over the
+      begin."),
+      p("The data set we analyzed contained 
+      various cases of child abuse over the
     span of 5 years. Each case disclosed the year, state, type of child abuse, 
     and whether or not the victim survived. Through our research, we were able
     to find that the most common type of child abuse was neglect. Given that
@@ -69,50 +76,48 @@ page_ui <- fluidPage(
       to others. Youth of all ages deserve a safe, nurturing environment to
       grow up in, something we hope to make more accessible by raising
       awareness and educating the public on the issue.")
-      
+
 ),
 )
 )
 
-
+# displays first chart
  chart_1 <- tabPanel(
-  "Frequency of Child Abuse", 
+  "Frequency of Child Abuse",
   titlePanel("Frequency of Child Victims Based on Age"),
-  
+
   sidebarLayout(
     sidebarPanel(
-      
+
+# drop down menu to select state
       selectInput(
         inputId = "state",
         label = "state",
         choices = c("Alabama",	"Alaska",	"Arizona", "Arkansas",
                     "California",	"Colorado",	"Connecticut",
-                    "Delaware",	"District.of.Columbia",	"Florida",	
-                    "Georgia",	"Hawaii",	"Idaho",	"Illinois",	
-                    "Indiana",	"Iowa",	"Kansas",	"Kentucky",	
+                    "Delaware",	"District.of.Columbia",	"Florida",
+                    "Georgia",	"Hawaii",	"Idaho",	"Illinois",
+                    "Indiana",	"Iowa",	"Kansas",	"Kentucky",
                     "Louisiana",	"Maine",	"Maryland",	"Massachusetts",
-                    "Michigan",	"Minnesota",	"Mississippi",	
-                    "Missouri",	"Montana",	"Nebraska",	"Nevada",	
-                    "New.Hampshire",	"New.Jersey",	"New.Mexico",	
-                    "New.York",	"North.Carolina",	"North.Dakota",	
-                    "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",	
-                    "Puerto.Rico",	"Rhode.Island",	"South.Carolina",	
-                    "South.Dakota",	"Tennessee",	"Texas",	"Utah",	
-                    "Vermont",	"Virginia",	"Washington",	
+                    "Michigan",	"Minnesota",	"Mississippi",
+                    "Missouri",	"Montana",	"Nebraska",	"Nevada",
+                    "New.Hampshire",	"New.Jersey",	"New.Mexico",
+                    "New.York",	"North.Carolina",	"North.Dakota",
+                    "Ohio",	"Oklahoma",	"Oregon",	"Pennsylvania",
+                    "Puerto.Rico",	"Rhode.Island",	"South.Carolina",
+                    "South.Dakota",	"Tennessee",	"Texas",	"Utah",
+                    "Vermont",	"Virginia",	"Washington",
                     "West.Virginia",	"Wisconsin",	"Wyoming",	"National"),
         multiple = FALSE
       ),
-      
-      
+
     ),
 
     mainPanel(
-      
-      textOutput("testvar"),
+
       plotlyOutput("plot"),
-    
 
-
+# chart 1 description
   p("The chart that is displayed shows the frequency of victims of child abuse 
     sorted by their age. By choosing a state, users can see how the frequency 
     increases or decreases depending on the child's age. It can help users 
@@ -123,15 +128,15 @@ page_ui <- fluidPage(
 )
 )
 
-
+# chart 2 display
   chart_2 <- tabPanel(
-    "Deaths from Abuse", 
+    "Deaths from Abuse",
     titlePanel("Comparing Deaths from Child Abuse"),
-  
-  
+
     sidebarLayout(
       sidebarPanel(
-        
+
+# 2 dropdown menus to select 2 states
         selectInput(inputId = "state1", label = "State1",
                     choices = statenames, multiple = FALSE
                     ),
@@ -141,8 +146,8 @@ page_ui <- fluidPage(
 ),
         mainPanel(
           plotlyOutput("graph"),
-                
 
+# chart 2 description
   p("The chart showcases the number of deaths that resulted from cases of 
     child abuse. It compares two states in the U.S to show which state has more 
     or less deaths as the years go by. Users would be able to figure out the 
@@ -151,18 +156,17 @@ page_ui <- fluidPage(
     United States."),
 )
 )
-  ) 
+  )
 
-
-
+# chart 3
   chart_3 <- tabPanel(
     "Forms of Abuse",
     titlePanel("Forms of Child Abuse"),
-    
-    
+
     sidebarLayout(
       sidebarPanel(
-        
+
+# dropdown menu for 1 state
         selectInput(inputId = "state01", label = "State1",
                     choices = statenames, multiple = FALSE
         ),
@@ -171,6 +175,7 @@ page_ui <- fluidPage(
       mainPanel(
         plotlyOutput("graph1"),
 
+# chart 2 description
     p("The chart has shows the number of cases of child abuse and the different 
     forms of child abuse in each state. Using this information, one can see the 
     form that is the most common in the selected state. This is important 
@@ -179,6 +184,8 @@ page_ui <- fluidPage(
     )
     )
   )
+
+# summary page (takeaways- all text)
   summary_page <- tabPanel(
     "Summary",
     titlePanel("Summary Takeaways"),
@@ -255,7 +262,7 @@ page_ui <- fluidPage(
       help educate those who are unaware about the trends of child abuse in the
       United States."),
     h3("Problem Domain"),
-    p("Our group’s topic is about child abuse, which includes information like
+    p("Our group's topic is about child abuse, which includes information like
     who gets abused the most, where the cases occur, number of cases, and more.
     We chose to focus on child abuse cases in the United States. Although it is
     a heavy topic, we wanted to know more details about the issue by figuring
@@ -276,12 +283,12 @@ page_ui <- fluidPage(
     extended family could also be stakeholders."),
     p("There are no benefits for this topic, since child abuse is terrible and
     should not be happening. An obvious harm is that the child is being hurt,
-    whether that is emotionally or physically. Another harm is that the child’s
+    whether that is emotionally or physically. Another harm is that the child's
     pain does not stop when the abuser stops harming them. The trauma can
-    actually continue years into the child’s life. Research shows that some
+    actually continue years into the child's life. Research shows that some
     effects include thoughts of suicide, problems with their academic life,
     depression, alcohol issues, trust issues, anxiety, and health problems
-    (Mayo Clinic, 2022). These effects can signifcantly impact a person’s
+    (Mayo Clinic, 2022). These effects can signifcantly impact a person's
     quality of life. With the datasets that we have access to, we hope to use
     them to see and compare values to each other. Making charts and
     visualizations would help us understand the topic and answer our research
@@ -309,6 +316,53 @@ page_ui <- fluidPage(
     in the United States has more deaths from child abuse, we could focus on 
     them more to prevent more cases and save childen."),
     h3("The Dataset"),
+    p("For our datasets, we found 3 data files online. They were all from U.S. 
+	Department of Health & Human Services, who got it from the National Child 
+	Abuse and Neglect Data Systems (NCANDS). NCANDS is a voluntary data collection
+	system that collects data and information about child abuse across the United 
+	States. States submit this data annually and voluntarily. This data was all 
+	updated in 2021, though it is either from 2019 or from 2015 to 2019. 
+	It is used for ongoing research by the Children's Bureau, which is 
+	funded by the Department of Health and Human Services. However, 
+	it is also accessible to the public so outside researchers can 
+	analyze the data as well. Researchers, policy makers, and others who
+	are involved with child welfare are the ones to most likely benefit 
+	from this research. It is unclear how this data is verified, or if it
+	is even verified at all, but we hypothesize that because this data is
+	collected by states who input the data voluntarily, that verification
+	methods vary by state. Each dataset also has the tag 'Quality Data', 
+	so we know it has been verified in some way. It is also not able to be edited
+	by anyone outside the aforementioned organizations, so this data is very 
+	secure. We obtained this data by searching for datasets related to child 
+	welfare, and these were the most conclusive sets we found."),
+p("To go more in depth on each individual dataset, we will start by explaining 
+each one. The first one is titled 'Child Victims by Age' 
+(Child Victims by Age | HealthData.gov, n.d.). It has 54 rows and 39 columns. 
+This data is from the last 
+fiscal year with data, 2019. It collects the number of child victims as well
+as the rate per 1000 children for each state (including Puerto Rico and the 
+District of Columbia). These victims include those who died of abuse. The 
+ages available in this dataset are age <0 to 17. There is also a column for
+unborn children, unknown age, or for ages 18-21, as well as a column for 
+total victims in 2019."),
+p("Our second dataset is titled 'Child Fatalities Trend' 
+(Child Fatalities Trend | HealthData.gov, n.d.). It has 53 rows and 6 columns. 
+This dataset has the number 
+of fatalities due to child abuse by state from the years 2015-2019. These are 
+individual counts, not rates. According to the dataset, 'A child fatality is 
+defined as the death of a child as a result of abuse and neglect, because 
+either an injury resulting from the abuse and neglect was the cause of death,
+or abuse and neglect were contributing factors to the cause of death' 
+(Child Fatalities Trend | HealthData.gov, n.d.)."),
+p("Our last dataset is titled 'Maltreatment Types of Victims' 
+(Maltreatment Types of Victims | HealthData.gov, n.d.). It has 54 rows and 21 columns. 
+This dataset looks at 
+the different types of maltreatment victims faced by state in the year 2019. 
+These are also counts rather than rates. Percents are also calculated for each
+type of maltreatment. There are also total victims columns for both percentages
+and counts. The types of maltreatment include psychological abuse, sexual abuse,
+sex trafficking, unknown abuse, multiple types of abuse, physical abuse, 
+medical neglect, neglect, and other."),
     h3("Expected Implications"),
     p("A possible implication that technologists, designers, and policymakers
     have is that they could do further research on other factors of child
@@ -339,8 +393,8 @@ page_ui <- fluidPage(
     would not appear in databases."),
     h3("Findings"),
     p("After completing our Shiny web app, we have been able to figure out the
-    answers to our research questions. Our first question was “What type of
-    child abuse is the most common?”. In our web app, we included a chart that
+    answers to our research questions. Our first question was 'What type of
+    child abuse is the most common?'. In our web app, we included a chart that
     has the number of cases of child abuse for each form of abuse. Users are
     able to select a state in the United States to see the data for each state.
     The types that we included were medical neglect, multiple maltreatment
@@ -349,7 +403,7 @@ page_ui <- fluidPage(
     thought that physical abuse would be the most common. However, we found out
     that the most common form of abuse was neglect. Physical abuse seemed to be
     the second most common in some states. Our second research question was
-    “What is the age distribution of child abuse cases?”. We made another chart
+    'What is the age distribution of child abuse cases?'. We made another chart
     that displayed the frequency of child victims sorted by their ages.
     Surprisingly, the ages that had the highest rate of abuse are newborns. 
     Children that were less than one year old, one year old, and two years old
@@ -360,7 +414,7 @@ page_ui <- fluidPage(
     our first research question, since neglection was the most common type of
     child abuse. The babies could have been neglected by their parents, because
     they unfortunately are easier to 'forget'. Our final research question was
-    “What areas in the United States have the most deaths from child abuse?”
+    'What areas in the United States have the most deaths from child abuse?'
     We thought California would have the most deaths because it has the highest
     population. However, after creating a chart that compares the deaths
     between two states that the user can put in, we find out that Texas has the
@@ -389,7 +443,7 @@ page_ui <- fluidPage(
     to get their child's medication one time neglect? However, Child Protective 
     Services (CPS) generally do not become involved until they deem that 
     'parental inaction is deemed a major contributor to a child's needs 
-    not being met' (Dubowitz, 2013)."), 
+    not being met' (Dubowitz, 2013)."),
  	p("However, there are some common reasons why parents or caretakers neglect 
  	children. One significant reason is the parents- if parents are not raising
  	their children properly or are dealing with feelings of stress, isolation, 
@@ -427,21 +481,29 @@ p("CDC. (2021). Preventing Child Abuse & Neglect. Centers for Disease Control
   and Prevention. 
   https://www.cdc.gov/violenceprevention/childabuseandneglect/fastfact.html"),
 
-
-p("Dubowitz, H. (2013). Neglect in Children. Pediatric Annals, 42(4), 
+p("Child Fatalities Trend | HealthData.gov. (n.d.). Healthdata.gov. 
+  https://healthdata.gov/dataset/Child-Fatalities-Trend/u7xm-yva2"),
+p("Child Victims by Age | HealthData.gov. (n.d.). Healthdata.gov. 
+  https://healthdata.gov/dataset/Child-Victims-by-Age/xn3e-yyaj"),
+p("Dubowitz, H. (2013). Neglect in Children. Pediatric Annals, 42(4),
   73-77. https://doi.org/10.3928/00904481-20130326-11"),
 p("Healthy Children. (2019). Child Abuse and Neglect. HealthyChildren.org. 
-  https://www.healthychildren.org/English/safety-prevention/at-home/Pages/What-to-Know-about-Child-Abuse.aspx???"),
+  https://www.healthychildren.org/English/safety-prevention/at-home/Pages/
+  What-to-Know-about-Child-Abuse.aspx???"),
+p("Maltreatment Types of Victims | HealthData.gov. (n.d.). Healthdata.gov. 
+  Retrieved December 8, 2022, from 
+  https://healthdata.gov/dataset/Maltreatment-Types-of-Victims/8bce-qw8w"),
 p("Mayo Clinic. (2022, May 19). Child abuse - Symptoms and causes. Mayo Clinic. 
-  https://www.mayoclinic.org/diseases-conditions/child-abuse/symptoms-causes/syc-20370864"),
+  https://www.mayoclinic.org/diseases-conditions/child-abuse/
+  symptoms-causes/syc-20370864"),
 p("Who abuses children? | Australian Institute of Family Studies. (n.d.). 
-  Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/who-abuses-children"),
+  Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/
+  |who-abuses-children"),
     h3("Appendix A: Questions"),
     p("None"),
-    
 )
-  
 
+# creates a navigation bar at the top of entire app
 page_ui <- navbarPage(
   theme = shinytheme("yeti"),
   "Analysis of Child Abuse",
