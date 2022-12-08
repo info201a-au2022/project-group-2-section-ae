@@ -86,20 +86,30 @@ A limitation that we thought of is that it may be difficult to get an accurate c
 Special thanks to our teaching assistant Annie Tu for her help and guidance throughout the making of this project.
 
 ### References
-American Red Cross. (February 15, 2021). Distribution of blood types in the United States as of 2021, by ethnicity [Graph]. In Statista. Retrieved November 01, 2022, from https://www.statista.com/statistics/1203831/blood-type-distribution-us-by-ethnicity/
+Avdibegovic, E., & Brkic, M. (2020). Child Neglect - Causes and 
+      Consequences. Psychiatria Danubina, 32(Suppl 3), 337-342.
+CDC. (2021). Preventing Child Abuse & Neglect. Centers for Disease Control 
+  and Prevention. 
+  https://www.cdc.gov/violenceprevention/childabuseandneglect/fastfact.html
 
-Elflein, J. (2022, May 06). Blood type distribution U.S. 2021. Retrieved October 31, 2022, 	from
-https://www.statista.com/statistics/1112664/blood-type-distribution-us/
-
-Eligibility Requirements. (2019). Redcrossblood.org. https://www.redcrossblood.org/donate-blood/how-to-donate/eligibility-requirements.html
-
-Gallup. (January 11, 2022). Percentage of U.S. adults who gave blood in 2021, by gender [Graph]. In Statista. Retrieved November 01, 2022, from https://www.statista.com/statistics/1203870/share-of-adults-who-gave-blood-us-by-gender/
-
-Myers, D. J., & Collins, R. A. (2022). Blood Donation [Review of Blood Donation]. StatPearls. https://www.ncbi.nlm.nih.gov/books/NBK525967/#:~:text=Blood%20donation%20for%20transfusion%20is,small%20subset%20of%20medical%20conditions.
-
-Patel, E. U., Bloch, E. M., Grabowski, M. K., Goel, R., Lokhandwala, P. M., Brunker, P., White, J. L., Shaz, B., Ness, P. M., & Tobian, A. (2019). Sociodemographic and behavioral characteristics associated with blood donation in the United States: a population-based study. Transfusion, 59(9), 2899–2907. https://doi.org/10.1111/trf.15415
-
-Veseli, B., Sandner, S., Studte, S., & Clement, M. (2022). The impact of COVID-19 on blood donations. PLOS ONE, 17(3), e0265171. https://doi.org/10.1371/journal.pone.0265171
+Child Fatalities Trend | HealthData.gov. (n.d.). Healthdata.gov. 
+  https://healthdata.gov/dataset/Child-Fatalities-Trend/u7xm-yva2
+Child Victims by Age | HealthData.gov. (n.d.). Healthdata.gov. 
+  https://healthdata.gov/dataset/Child-Victims-by-Age/xn3e-yyaj
+Dubowitz, H. (2013). Neglect in Children. Pediatric Annals, 42(4),
+  73-77. https://doi.org/10.3928/00904481-20130326-11
+Healthy Children. (2019). Child Abuse and Neglect. HealthyChildren.org. 
+  https://www.healthychildren.org/English/safety-prevention/at-home/Pages/
+  What-to-Know-about-Child-Abuse.aspx???
+Maltreatment Types of Victims | HealthData.gov. (n.d.). Healthdata.gov. 
+  Retrieved December 8, 2022, from 
+  https://healthdata.gov/dataset/Maltreatment-Types-of-Victims/8bce-qw8w
+Mayo Clinic. (2022, May 19). Child abuse - Symptoms and causes. Mayo Clinic. 
+  https://www.mayoclinic.org/diseases-conditions/child-abuse/
+  symptoms-causes/syc-20370864
+Who abuses children? | Australian Institute of Family Studies. (n.d.). 
+  Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/
+  |who-abuses-children
 
 ### Appendix A: Questions
 None at this time.
