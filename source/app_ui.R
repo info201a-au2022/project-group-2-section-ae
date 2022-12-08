@@ -58,8 +58,8 @@ page_ui <- fluidPage(
 )
 
 chart_1 <- tabPanel(
-  "Chart 1", 
-  titlePanel("Frequency of Child Victims"),
+  "Frequency of Child Abuse", 
+  titlePanel("Frequency of Child Victims Based on Age"),
   
   sidebarLayout(
     sidebarPanel(
@@ -98,15 +98,17 @@ chart_1 <- tabPanel(
   p("The chart that is displayed shows the frequency of victims of child abuse 
     sorted by their age. By choosing a state, users can see how the frequency 
     increases or decreases depending on the child's age. It can help users 
-    figure out which age is more likely to experience child abuse."),
+    figure out which age experiences child abuse the most or the least. This 
+    is important because we can find out the age group that is struggling the 
+    most, and we can focus on why they are experiencing it."),
   )
 )
 )
 
 
   chart_2 <- tabPanel(
-    "Chart 2", 
-    titlePanel("Deaths from Child Abuse"),
+    "Deaths from Abuse", 
+    titlePanel("Comparing Deaths from Child Abuse"),
   
   
     sidebarLayout(
@@ -126,7 +128,9 @@ chart_1 <- tabPanel(
   p("The chart showcases the number of deaths that resulted from cases of 
     child abuse. It compares two states in the U.S to show which state has more 
     or less deaths as the years go by. Users would be able to figure out the 
-    state that have more cases of deaths than other states."),
+    state that have more cases of deaths than other states. This is 
+    important because we can figure out where cases are most severe in the 
+    United States."),
 )
 )
   )   
@@ -134,7 +138,7 @@ chart_1 <- tabPanel(
 
 
   chart_3 <- tabPanel(
-    "Chart 3",
+    "Forms of Abuse",
     titlePanel("Forms of Child Abuse"),
     
     
@@ -151,7 +155,9 @@ chart_1 <- tabPanel(
 
     p("The chart has shows the number of cases of child abuse and the different 
     forms of child abuse in each state. Using this information, one can see the 
-    form that is the most common in the states."),
+    form that is the most common in the selected state. This is important 
+      because it can help others recognize signs that are related to each form 
+      of abuse, which could decrease the number of child abuse cases."),
     )
     )
   )
@@ -235,7 +241,7 @@ chart_1 <- tabPanel(
     who gets abused the most, where the cases occur, number of cases, and more.
     We chose to focus on child abuse cases in the United States. Although it is
     a heavy topic, we wanted to know more details about the issue by figuring
-    out where, how, and who was involved in child abuse.")
+    out where, how, and who was involved in child abuse."),
     p("There are a few stakeholders related to this topic. The first
     stakeholder is direct, and it is the children that are experiencing or have
     experienced abuse. Child abuse happens more often that people may think.
@@ -249,7 +255,7 @@ chart_1 <- tabPanel(
     It is shocking to find out that someone who is supposed to love their
     children are the ones who are abusing them. Some indirect stakeholders are
     policymakers, cops, the government, and judges. Other family members and
-    extended family could also be stakeholders.")
+    extended family could also be stakeholders."),
     p("There are no benefits for this topic, since child abuse is terrible and
     should not be happening. An obvious harm is that the child is being hurt,
     whether that is emotionally or physically. Another harm is that the child’s
@@ -261,7 +267,7 @@ chart_1 <- tabPanel(
     quality of life. With the datasets that we have access to, we hope to use
     them to see and compare values to each other. Making charts and
     visualizations would help us understand the topic and answer our research
-    questions.")
+    questions."),
     h3("Research Questions"),
     strong("What type of child abuse is the most common?"),
     p("By understanding what form of child abuse is the most common, it can help 
