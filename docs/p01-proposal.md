@@ -1,4 +1,4 @@
-# P01: Project Proposal
+# Project Proposal
 
 
 ### Code Name
