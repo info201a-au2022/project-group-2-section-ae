@@ -36,28 +36,46 @@ page_ui <- fluidPage(
   intro_page <- tabPanel(
     "Introduction", 
     titlePanel("Introduction"),
-      sidebarPanel(
-    p("Through our project, we intend to analyze data surrounding the issue of 
-      child abuse in order to better understand what policies and regulations 
-      should be implemented in order to support youth in the United States. 
-      With statistics regarding which states have the highest and lowest 
-      reported cases of abuse, we will be better enabled to examine the 
-      differences that create a safer environment in certain areas in 
-      comparison to others. Youth of all ages deserve a safe, nurturing 
-      environment to grow up in, something we hope to make more accessible by 
-      raising awareness and educating the public on the issue.")
-      ),
+    
    mainPanel(
         img("", 
       src = "https://pal.ua.edu/wp-content/uploads/2017/08/PAL-Child-Abuse-Neglect-1.jpg", 
-      height = "500px", width = "800px",
-      style= "position:absolute; left:100px;")
+      height = "350px", width = "600px",
+      style= "position:absolute; left:100px; margin-top: 450px;"),
+      
+      p("Child abuse, while an uncomfortable topic, is something that needs to be
+    addressed within the United States. Many children are impacted by societal 
+    barriers such as racism and sexism, which may be deemed inevitable due to 
+    their identity. However, coming home to a safe, loving family is something
+    every child should be able to do. Through our project, we intend to analyze
+    data surrounding the issue of child abuse in order to better understand
+    what policies and regulations should be implemented in order to support
+    youth in the United States."),
+      p("By asking the research questions:"), 
+      p("What type of child abuse is the most common?"),
+      p("What areas in the United States have the most deaths from child abuse?"),
+      p("What is the age distribution of child abuse cases?"),
+      p("We seek to find where research into preventative measures should
+      begin."), 
+      p("The data set we analyzed contained various cases of child abuse over the
+    span of 5 years. Each case disclosed the year, state, type of child abuse, 
+    and whether or not the victim survived. Through our research, we were able
+    to find that the most common type of child abuse was neglect. Given that
+    knowledge, we are more prepared to tackle issues of inaccessibility and
+    allocate appropriate resources to areas that are disproportionately
+    impacted. With statistics regarding which states have the highest and
+      lowest reported cases of abuse, we will be better able to examine the
+      differences that create a safer environment in certain areas compared
+      to others. Youth of all ages deserve a safe, nurturing environment to
+      grow up in, something we hope to make more accessible by raising
+      awareness and educating the public on the issue.")
       
 ),
 )
 )
 
-chart_1 <- tabPanel(
+
+ chart_1 <- tabPanel(
   "Frequency of Child Abuse", 
   titlePanel("Frequency of Child Victims Based on Age"),
   
@@ -133,7 +151,7 @@ chart_1 <- tabPanel(
     United States."),
 )
 )
-  )   
+  ) 
 
 
 
@@ -434,4 +452,3 @@ page_ui <- navbarPage(
   summary_page,
   report_page
 )
-  
