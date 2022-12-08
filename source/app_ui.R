@@ -231,6 +231,37 @@ chart_1 <- tabPanel(
       help educate those who are unaware about the trends of child abuse in the
       United States."),
     h3("Problem Domain"),
+    p("Our group’s topic is about child abuse, which includes information like
+    who gets abused the most, where the cases occur, number of cases, and more.
+    We chose to focus on child abuse cases in the United States. Although it is
+    a heavy topic, we wanted to know more details about the issue by figuring
+    out where, how, and who was involved in child abuse.")
+    p("There are a few stakeholders related to this topic. The first
+    stakeholder is direct, and it is the children that are experiencing or have
+    experienced abuse. Child abuse happens more often that people may think.
+    About 1 in 7 kids have been in a situation where he or she have experienced
+    abuse, whether it be neglection or physical abuse (CDC, 2022). This
+    statistic means that many kids have been abused, which should not be
+    happening. Human lives are valueable, but abuse is ruining the lives of
+    these kids. Another direct stakeholder is the person who is abusing the
+    child. Surprisingly, many of the adults who have caused harm to a child
+    were a parent or caretaker (Australian Institute of Family Studies, 2014).
+    It is shocking to find out that someone who is supposed to love their
+    children are the ones who are abusing them. Some indirect stakeholders are
+    policymakers, cops, the government, and judges. Other family members and
+    extended family could also be stakeholders.")
+    p("There are no benefits for this topic, since child abuse is terrible and
+    should not be happening. An obvious harm is that the child is being hurt,
+    whether that is emotionally or physically. Another harm is that the child’s
+    pain does not stop when the abuser stops harming them. The trauma can
+    actually continue years into the child’s life. Research shows that some
+    effects include thoughts of suicide, problems with their academic life,
+    depression, alcohol issues, trust issues, anxiety, and health problems
+    (Mayo Clinic, 2022). These effects can signifcantly impact a person’s
+    quality of life. With the datasets that we have access to, we hope to use
+    them to see and compare values to each other. Making charts and
+    visualizations would help us understand the topic and answer our research
+    questions.")
     h3("Research Questions"),
     strong("What type of child abuse is the most common?"),
     p("By understanding what form of child abuse is the most common, it can help 
