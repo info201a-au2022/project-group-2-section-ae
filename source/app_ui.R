@@ -471,6 +471,43 @@ medical neglect, neglect, and other."),
 	states. Both of these implications require actions taken by policymakers
 	on a local to a national scale."),
     h3("Conclusion"),
+    p("Child abuse is rarely ever talked about. With more than 4 million cases
+    reported annually in the United States alone, action needs to be taken to
+    prevent further harm to today’s youth. Children should be able to live
+    fulfilling lives - making friends, learning about the world, and dreaming
+    of their futures. When they are susceptible to harm in their own homes,
+    their access to well-being and safety is stripped away."),
+    p("However, with a problem as large and adverse as child abuse, it becomes
+    difficult to develop a conducive solution to implement nationally. In order
+    to break down the issue and thoroughly analyze data points, we needed to
+    derive big-picture statistics."),
+    p("Through our research, we were able to find that the most common type of
+    child abuse was neglect. Given that knowledge, we are more prepared to
+    tackle issues of inaccessibility and allocate appropriate resources to
+    areas that are disproportionately impacted."),
+    p("With the key takeaway that neglect is the most common form of child
+    abuse across the United States, we are better informed to evaluate the
+    causes as to why exactly that is. In some lower-income communities, the
+    cause could be said to be not having enough money – which in turn, would
+    lead to reduced care and nurturing of the child. In higher-income
+    neighborhoods, the cause could be interpreted as parents being preoccupied
+    with work or other outside commitments. Across the United States, the fact
+    that neglect is the most common type of child abuse also calls for a
+    reevaluation of the effects and impacts of systemic social barriers such
+    as racism and socio-economic status in order to see which root causes can
+    be dismantled by the government and other law enforcement entities."),
+    p("By examining those effects, we are also given a better idea of what
+      policies and laws need to be drafted and implemented to best protect
+      our youth. Our project also gave us statistics regarding which states
+      have the highest and lowest reported cases of abuse. With these numbers,
+      we will be better able to examine the differences that create a safer
+      environment in certain areas compared to others. Every child needs a
+      loving home in order to live out to their fullest potential. By
+      decreasing the impact of child abuse by tackling the root causes of
+      neglect, we hope to allow more kids access to this privilege. Youth
+      of all ages deserve a safe, nurturing environment to grow up in,
+      something we hope to make more accessible by raising awareness and
+      educating the public on the issue."),
     h3("Acknowledgements"),
     p("Special thanks to our teaching assistant Annie Tu for her help and 
       guidance throughout the making of this project."),
