@@ -341,7 +341,7 @@ chart_1 <- tabPanel(
     parents being unable to form a bond with their newborn. It also connects to
     our first research question, since neglection was the most common type of
     child abuse. The babies could have been neglected by their parents, because
-    they unfortunately are easier to “forget”. Our final research question was
+    they unfortunately are easier to 'forget'. Our final research question was
     “What areas in the United States have the most deaths from child abuse?”
     We thought California would have the most deaths because it has the highest
     population. However, after creating a chart that compares the deaths
@@ -352,11 +352,52 @@ chart_1 <- tabPanel(
     deaths a state has because the states with a lower population had less
     deaths, while the states with higher populations had more deaths."),
     h3("Discussion"),
+    p("While our datasets had some limitations, there were still many important 
+    and notable findings in our figures and analysis. From our first chart we 
+    had a finding that by far most child victims were younger than one year old, 
+    and that the number of victims per age (all the way to age 17) steadily 
+    decreased. This trend was seen in virtually all states, and we first 
+    hypothesized that this is due to newborns being 'easier' to abuse. 
+    However, in one of our other figures, we looked at the distribution 
+    of maltreatment types in 2019 across states, and found out that for 
+    virtually every state, the largest percentage of maltreatment type 
+    was neglect. Going hand in hand with newborns being the largest group
+    of children who are abused, this indicates that abused newborns are 
+    generally neglected rather than physically abused. There is no one 
+    theory that demonstrates why children may be neglected, and it is 
+    also oftentimes difficult to characterize neglect (Avdibegovic, 2020).
+    Is a mother leaving her child alone in an apartment for a short period
+    of time because she needs to run errands neglect? Is a parent forgetting
+    to get their child's medication one time neglect? However, Child Protective 
+    Services (CPS) generally do not become involved until they deem that 
+    'parental inaction is deemed a major contributor to a child's needs 
+    not being met' (Dubowitz, 2013)."), 
+ 	p("However, there are some common reasons why parents or caretakers neglect 
+ 	children. One significant reason is the parents- if parents are not raising
+ 	their children properly or are dealing with feelings of stress, isolation, 
+ 	or frustration of their own, this can create a situation of child neglect 
+ 	(Healthy Children, 2019). Our findings imply that it can be difficult for 
+ 	some parents to simply raise their children or give them the proper attention.
+ 	To better address child abuse cases, states could provide better parenting and
+ 	childcare resources, especially to parents of newborns. Not only would this 
+ 	lower rates of child neglect, but it would also lower the overall rate of 
+ 	abuse. This finding helps inform better decisions and actions for stakeholders
+ 	regarding child abuse.
+	In our last chart, we looked at the number of deaths per year (2015 to 2019) by each state, with the ability to compare two states. Because the dataset used in this figure did not have death rates (only counts), there is one major caveat to this graph. States with larger populations would show up with higher death rates than states with lower populations, even if the smaller state proportionally had higher deaths. We expected the higher population states (if comparing) to always have more deaths. However, when comparing Texas and California, Texas (a lower population state) had a higher death count than California for every year. This finding has multiple implications. One is that Texas has more abusers than most states, which means that investigative action needs to be taken right away. Another implication goes hand in hand with the other two charts, in that Texas parents do not have enough parenting or childcare resources compared to other states. Both of these implications require actions taken by policymakers on a local to a national scale.???
+"),
     h3("Conclusion"),
     h3("Acknowledgements"),
     p("Special thanks to our teaching assistant Annie Tu for her help and 
       guidance throughout the making of this project."),
     h3("References"),
+    p("Avdibegovic, E., & Brkic, M. (2020). Child Neglect - Causes and Consequences. Psychiatria Danubina, 32(Suppl 3), 337-342."),
+p("CDC. (2021). Preventing Child Abuse & Neglect. Centers for Disease Control and Prevention. https://www.cdc.gov/violenceprevention/childabuseandneglect/fastfact.html"),
+
+
+p("Dubowitz, H. (2013). Neglect in Children. Pediatric Annals, 42(4), 73-77. https://doi.org/10.3928/00904481-20130326-11"),
+p("Healthy Children. (2019). Child Abuse and Neglect. HealthyChildren.org. https://www.healthychildren.org/English/safety-prevention/at-home/Pages/What-to-Know-about-Child-Abuse.aspx???"),
+p("Mayo Clinic. (2022, May 19). Child abuse - Symptoms and causes. Mayo Clinic. https://www.mayoclinic.org/diseases-conditions/child-abuse/symptoms-causes/syc-20370864"),
+p("Who abuses children? | Australian Institute of Family Studies. (n.d.). Aifs.gov.au. https://aifs.gov.au/resources/policy-and-practice-papers/who-abuses-children"),
     h3("Appendix A: Questions"),
     p("None"),
     
