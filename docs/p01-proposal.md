@@ -103,8 +103,7 @@ Dubowitz, H. (2013). Neglect in Children. Pediatric Annals, 42(4),
   73-77. https://doi.org/10.3928/00904481-20130326-11
   
 Healthy Children. (2019). Child Abuse and Neglect. HealthyChildren.org. 
-  https://www.healthychildren.org/English/safety-prevention/at-home/Pages/
-  What-to-Know-about-Child-Abuse.aspx???
+  https://www.healthychildren.org/English/safety-prevention/at-home/Pages/What-to-Know-about-Child-Abuse.aspx‌
   
 Maltreatment Types of Victims | HealthData.gov. (n.d.). Healthdata.gov. 
   Retrieved December 8, 2022, from 
